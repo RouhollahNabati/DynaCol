@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="374" viewBox="0 0 760 374">
+  <rect width="100%" height="100%" fill="#FAFAFA"/>
+  <text x="380.0" y="28" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111">Ablation at N=500: P95 latency (ms)</text>
+  <line x1="78.00" y1="52.00" x2="78.00" y2="302.00" stroke="#64748B" stroke-width="1.50"/>
+  <line x1="78.00" y1="302.00" x2="732.00" y2="302.00" stroke="#64748B" stroke-width="1.50"/>
+  <text x="405.00" y="344.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#000">Variant</text>
+  <text x="22.00" y="177.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#000">P95 latency (ms)</text>
+  <text x="159.75" y="318.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">Full DCBO</text>
+  <line x1="159.75" y1="302.00" x2="159.75" y2="306.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="323.25" y="318.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">No-Handover</text>
+  <line x1="323.25" y1="302.00" x2="323.25" y2="306.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="486.75" y="318.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">CRT-only</text>
+  <line x1="486.75" y1="302.00" x2="486.75" y2="306.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="650.25" y="318.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">GRT-only</text>
+  <line x1="650.25" y1="302.00" x2="650.25" y2="306.00" stroke="#64748B" stroke-width="1.00"/>
+  <line x1="74.00" y1="302.00" x2="78.00" y2="302.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="306.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">1</text>
+  <line x1="78.00" y1="302.00" x2="732.00" y2="302.00" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="278.55" x2="78.00" y2="278.55" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="282.55" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">2</text>
+  <line x1="78.00" y1="278.55" x2="732.00" y2="278.55" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="247.56" x2="78.00" y2="247.56" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="251.56" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">5</text>
+  <line x1="78.00" y1="247.56" x2="732.00" y2="247.56" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="224.11" x2="78.00" y2="224.11" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="228.11" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">10</text>
+  <line x1="78.00" y1="224.11" x2="732.00" y2="224.11" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="200.66" x2="78.00" y2="200.66" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="204.66" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">20</text>
+  <line x1="78.00" y1="200.66" x2="732.00" y2="200.66" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="169.67" x2="78.00" y2="169.67" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="173.67" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">50</text>
+  <line x1="78.00" y1="169.67" x2="732.00" y2="169.67" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="146.22" x2="78.00" y2="146.22" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="150.22" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">100</text>
+  <line x1="78.00" y1="146.22" x2="732.00" y2="146.22" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="122.77" x2="78.00" y2="122.77" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="126.77" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">200</text>
+  <line x1="78.00" y1="122.77" x2="732.00" y2="122.77" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="91.77" x2="78.00" y2="91.77" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="95.77" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">500</text>
+  <line x1="78.00" y1="91.77" x2="732.00" y2="91.77" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="68.33" x2="78.00" y2="68.33" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="72.33" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">1000</text>
+  <line x1="78.00" y1="68.33" x2="732.00" y2="68.33" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <rect x="114.79" y="235.13" width="89.93" height="66.87" fill="#2563EB" opacity="1.00" rx="2.00"/>
+  <text x="159.75" y="316.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="7" font-weight="normal" text-anchor="middle" fill="#475569">Full
+DCBO</text>
+  <rect x="278.29" y="121.83" width="89.93" height="180.17" fill="#EA580C" opacity="1.00" rx="2.00"/>
+  <text x="323.25" y="316.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="7" font-weight="normal" text-anchor="middle" fill="#475569">No-Handover</text>
+  <rect x="441.79" y="235.13" width="89.93" height="66.87" fill="#0F766E" opacity="1.00" rx="2.00"/>
+  <text x="486.75" y="316.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="7" font-weight="normal" text-anchor="middle" fill="#475569">CRT-only</text>
+  <rect x="605.29" y="59.55" width="89.93" height="242.45" fill="#7C3AED" opacity="1.00" rx="2.00"/>
+  <text x="650.25" y="316.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="7" font-weight="normal" text-anchor="middle" fill="#475569">GRT-only</text>
+</svg>

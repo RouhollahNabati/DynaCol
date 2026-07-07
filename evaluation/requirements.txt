@@ -1,0 +1,4 @@
+# Optional: evaluation uses Python 3 stdlib only (no install required).
+# Uncomment if extending with numpy/scipy-based analysis:
+# numpy>=1.24
+# scipy>=1.10

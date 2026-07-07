@@ -1,0 +1,49 @@
+# Manuscript and submission materials (kept locally, not published)
+paper/
+submission/
+
+# Python
+evaluation/.packages/
+evaluation/.venv/
+__pycache__/
+*.pyc
+
+# Local JDK / build tools
+.tools/
+
+# Java build output
+ifogsim2/out/
+ifogsim2/bin/
+*.class
+
+# Simulator run logs and internal backups
+*.log
+evaluation/results/simulator/pre_fix_backup/
+
+# Dev / exploratory trial shards (not used in published results)
+evaluation/results/simulator/trials_random.csv
+evaluation/results/simulator/trials_drl.csv
+evaluation/results/simulator/trials_multiagent.csv
+evaluation/results/simulator/trials_fogplan_central.csv
+evaluation/results/simulator/trials_gahc.csv
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
+
+# Internal-only helper scripts
+scripts/package-cluster-computing-submission.sh
+scripts/compile-paper.sh
+scripts/eval-monitor.sh
+scripts/eval-status.sh
+scripts/finish-and-build.sh
+scripts/run-dcbo-fogplan.sh
+scripts/run-evaluation-after-grids.sh
+scripts/run-evaluation-finish.sh
+scripts/run-evaluation-parallel.sh
+scripts/run-evaluation-preview.sh
+scripts/run-evaluation-real-fast.sh
+scripts/run-evaluation-reviewer-extras.sh
+scripts/run-evaluation-reviewer-resume.sh
+scripts/run-evaluation-sequential.sh

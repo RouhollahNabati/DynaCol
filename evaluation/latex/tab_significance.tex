@@ -1,0 +1,52 @@
+\begin{table}[!t]
+\centering
+\caption{Holm-adjusted $p$ for pairwise P95 tests versus DynaCol/DCBO ($\alpha=0.05$, $n=10$ per group; \textsuperscript{ns} = not significant). Full results incl.\ test statistics: \texttt{significance\_tests.csv}.}
+\label{tab:significance_p95}
+\scriptsize
+\renewcommand{\arraystretch}{1.10}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Comparison vs DynaCol/DCBO} & \textbf{$N=100$} & \textbf{$N=300$} & \textbf{$N=500$} & \textbf{$N=1000$} \\
+\midrule
+FogPlan-MinCost & $0.297$\textsuperscript{ns} & $<0.001$ & $<0.001$ & $<0.001$ \\
+Static-DCBO & $<0.001$ & $<0.001$ & $0.002$ & $<0.001$ \\
+Greedy-Nearest & $<0.001$ & $<0.001$ & $0.002$ & $<0.001$ \\
+Tavousi-Fuzzy & $<0.001$ & $<0.001$ & $0.002$ & $<0.001$ \\
+Dogani-TwoTier & $<0.001$ & $<0.001$ & $0.002$ & $<0.001$ \\
+Edgeward & $<0.001$ & $0.002$ & $0.002$ & $0.002$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table*}[!t]
+\centering
+\caption{Holm-adjusted $p$ for pairwise SLA tests versus DynaCol/DCBO by scenario ($\alpha=0.05$, $n=10$ per group; \textsuperscript{ns} = not significant).}
+\label{tab:significance}
+\scriptsize
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llcccc@{}}
+\toprule
+\textbf{Comparison vs DynaCol/DCBO} & \textbf{Scenario} & \textbf{$N=100$} & \textbf{$N=300$} & \textbf{$N=500$} & \textbf{$N=1000$} \\
+\midrule
+FogPlan-MinCost & Normal Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+FogPlan-MinCost & Burst Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+FogPlan-MinCost & Churn & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Static-DCBO & Normal Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Static-DCBO & Burst Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Static-DCBO & Churn & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Greedy-Nearest & Normal Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Greedy-Nearest & Burst Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Greedy-Nearest & Churn & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Tavousi-Fuzzy & Normal Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Tavousi-Fuzzy & Burst Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Tavousi-Fuzzy & Churn & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Dogani-TwoTier & Normal Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Dogani-TwoTier & Burst Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Dogani-TwoTier & Churn & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Edgeward & Normal Load & $<0.001$ & $0.297$\textsuperscript{ns} & $0.100$\textsuperscript{ns} & $0.297$\textsuperscript{ns} \\
+Edgeward & Burst Load & $<0.001$ & $<0.001$ & $<0.001$ & $<0.001$ \\
+Edgeward & Churn & $<0.001$ & $0.297$\textsuperscript{ns} & $0.297$\textsuperscript{ns} & $0.297$\textsuperscript{ns} \\
+\bottomrule
+\end{tabular*}
+\end{table*}

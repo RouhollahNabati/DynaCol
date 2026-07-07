@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Workload and SLA deadline parameters (shared by all compared policies). $D_{\mathrm{base}}(N)=60+N/10$\,ms.}
+\label{tab:workload_spec}
+\scriptsize
+\renewcommand{\arraystretch}{1.10}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lllrrr@{}}
+\toprule
+\textbf{Scenario} & \textbf{Sensor period (ms)} & \textbf{Deadline} & \textbf{@ $N=100$} & \textbf{@ $N=500$} & \textbf{@ $N=1000$} \\
+\midrule
+Normal Load & 5 & $D_{\mathrm{base}}(N)$ & 70.0 & 110.0 & 160.0 \\
+Burst Load & 1 & $0.85\,D_{\mathrm{base}}(N)$ & 59.5 & 93.5 & 136.0 \\
+Churn & 5 & $0.88\,D_{\mathrm{base}}(N)$ & 61.6 & 96.8 & 140.8 \\
+\bottomrule
+\end{tabular}}
+\end{table}

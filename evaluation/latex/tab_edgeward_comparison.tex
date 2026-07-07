@@ -1,0 +1,22 @@
+\begin{table*}[!t]
+\centering
+\caption{Scenario-specific SLA comparison: DynaCol/DCBO vs.\ Edgeward (mean $\pm$ 95\% CI). At $N\geq300$, both methods reach $\approx$0\% on normal/churn (Holm $p>0.05$); burst is the primary differentiator (Sig.\ = Holm-adjusted).}
+\label{tab:edgeward_comparison}
+\scriptsize
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccc@{}}
+\toprule
+\textbf{Method} & \textbf{$N$} & \textbf{Normal Load (\%)} & \textbf{Burst Load (\%)} & \textbf{Churn (\%)} \\
+\midrule
+\textcolor{dynacolBlue}{\textbf{DynaCol/DCBO}} & 300 & 0.72 $\pm$ 0.83 & \textbf{0.96 $\pm$ 0.89} & 0.74 $\pm$ 0.86 \\
+\textcolor{dynacolBlue}{\textbf{DynaCol/DCBO}} & 500 & 0.57 $\pm$ 0.53 & \textbf{0.42 $\pm$ 0.49} & 0.44 $\pm$ 0.51 \\
+\textcolor{dynacolBlue}{\textbf{DynaCol/DCBO}} & 1000 & 0.21 $\pm$ 0.24 & \textbf{0.29 $\pm$ 0.26} & 0.22 $\pm$ 0.25 \\
+\textcolor{dynacolPurple}{\textbf{Edgeward}} & 300 & 0.00 $\pm$ 0.00 & 92.92 $\pm$ 0.01 & 0.00 $\pm$ 0.00 \\
+\textcolor{dynacolPurple}{\textbf{Edgeward}} & 500 & 0.00 $\pm$ 0.00 & 86.67 $\pm$ 0.05 & 0.00 $\pm$ 0.00 \\
+\textcolor{dynacolPurple}{\textbf{Edgeward}} & 1000 & 0.00 $\pm$ 0.00 & 83.88 $\pm$ 0.04 & 0.00 $\pm$ 0.00 \\
+\midrule
+\textcolor{dynacolBlue}{\textbf{DynaCol/DCBO}} & 100 & 12.55 $\pm$ 2.60 & 14.29 $\pm$ 1.70 & 14.86 $\pm$ 1.75 \\
+\textcolor{dynacolPurple}{\textbf{Edgeward}} & 100 & 85.57 $\pm$ 7.89 & 86.97 $\pm$ 0.28 & 86.65 $\pm$ 7.41 \\
+\bottomrule
+\end{tabular*}
+\end{table*}
