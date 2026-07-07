@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Incremental arrival under active load (mean SLA violation \%; 50\% bootstrap + 50\% at $t=0.4\times$ horizon).}
+\label{tab:incremental_arrival}
+\scriptsize
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llrcc}
+\toprule
+\textbf{Method} & \textbf{Scenario} & \textbf{$N$} & \textbf{SLA (\%)} & \textbf{$n$} \\
+\midrule
+DynaCol/DCBO & Burst & 100 & 62.73 & 5 \\
+DynaCol/DCBO & Burst & 300 & 34.50 & 5 \\
+DynaCol/DCBO & Mobility + Burst & 100 & 59.80 & 5 \\
+DynaCol/DCBO & Mobility & 100 & 60.22 & 5 \\
+DynaCol/DCBO & Normal & 100 & 60.54 & 5 \\
+DynaCol/DCBO & Normal & 300 & 34.83 & 5 \\
+Static-DCBO & Burst & 100 & 56.77 & 5 \\
+Static-DCBO & Burst & 300 & 31.91 & 5 \\
+Static-DCBO & Mobility + Burst & 100 & 59.49 & 5 \\
+Static-DCBO & Mobility & 100 & 59.21 & 5 \\
+Static-DCBO & Normal & 100 & 58.28 & 5 \\
+Static-DCBO & Normal & 300 & 31.97 & 5 \\
+\bottomrule
+\end{tabular}}
+\end{table}

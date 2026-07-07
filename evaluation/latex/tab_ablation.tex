@@ -1,0 +1,17 @@
+\begin{table}[!t]
+\centering
+\caption{Ablation study at $N=500$ fog nodes (mean $\pm$ 95\% CI, $n=10$ trials).}
+\label{tab:ablation}
+\scriptsize
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Variant} & \textbf{P95 latency (ms)} & \textbf{Burst SLA (\%)} \\
+\midrule
+Full DCBO & 7.2 $\pm$ 0.0 & 0.4 $\pm$ 0.5 \\
+No-Handover & 205.6 $\pm$ 183.2 & 9.2 $\pm$ 10.5 \\
+CRT-only & 7.2 $\pm$ 0.0 & 0.4 $\pm$ 0.5 \\
+GRT-only & 1296.3 $\pm$ 0.7 & 100.0 $\pm$ 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

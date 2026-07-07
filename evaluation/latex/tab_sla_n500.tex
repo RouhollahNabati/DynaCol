@@ -1,0 +1,18 @@
+\begin{table}[!t]
+\centering
+\caption{SLA violation rate (\%, mean $\pm$ 95\% CI, $n=10$) at $N=500$ by stress scenario.}
+\label{tab:sla_n500}
+\scriptsize
+\renewcommand{\arraystretch}{1.10}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{Normal Load} & \textbf{Burst Load} & \textbf{Churn} \\
+\midrule
+\textcolor{dynacolBlue}{\textbf{DynaCol/DCBO}} & 0.57 $\pm$ 0.53 & 0.42 $\pm$ 0.49 & 0.44 $\pm$ 0.51 \\
+\textcolor{dynacolOrange}{\textbf{FogPlan-MinCost}} & 20.91 $\pm$ 0.20 & 20.80 $\pm$ 0.20 & 21.21 $\pm$ 0.20 \\
+\textcolor{dynacolTeal}{\textbf{Static-DCBO}} & 18.98 $\pm$ 0.00 & 19.01 $\pm$ 0.00 & 19.54 $\pm$ 0.03 \\
+\textcolor{dynacolPurple}{\textbf{Edgeward}} & 0.00 $\pm$ 0.00 & 86.67 $\pm$ 0.05 & 0.00 $\pm$ 0.00 \\
+\bottomrule
+\end{tabular}}
+\end{table}

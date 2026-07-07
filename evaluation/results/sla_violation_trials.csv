@@ -1,0 +1,841 @@
+method,scenario,nodes,trial,sla_pct
+DynaCol/DCBO,Normal Load,100,1,10.294
+DynaCol/DCBO,Normal Load,100,2,10.295
+DynaCol/DCBO,Normal Load,100,3,17.827
+DynaCol/DCBO,Normal Load,100,4,10.294
+DynaCol/DCBO,Normal Load,100,5,10.295
+DynaCol/DCBO,Normal Load,100,6,17.827
+DynaCol/DCBO,Normal Load,100,7,10.294
+DynaCol/DCBO,Normal Load,100,8,10.295
+DynaCol/DCBO,Normal Load,100,9,17.827
+DynaCol/DCBO,Normal Load,100,10,10.294
+DynaCol/DCBO,Normal Load,300,1,0.0
+DynaCol/DCBO,Normal Load,300,2,2.415
+DynaCol/DCBO,Normal Load,300,3,0.0
+DynaCol/DCBO,Normal Load,300,4,0.0
+DynaCol/DCBO,Normal Load,300,5,2.415
+DynaCol/DCBO,Normal Load,300,6,0.0
+DynaCol/DCBO,Normal Load,300,7,0.0
+DynaCol/DCBO,Normal Load,300,8,2.415
+DynaCol/DCBO,Normal Load,300,9,0.0
+DynaCol/DCBO,Normal Load,300,10,0.0
+DynaCol/DCBO,Normal Load,500,1,1.426
+DynaCol/DCBO,Normal Load,500,2,0.0
+DynaCol/DCBO,Normal Load,500,3,0.0
+DynaCol/DCBO,Normal Load,500,4,1.426
+DynaCol/DCBO,Normal Load,500,5,0.0
+DynaCol/DCBO,Normal Load,500,6,0.0
+DynaCol/DCBO,Normal Load,500,7,1.426
+DynaCol/DCBO,Normal Load,500,8,0.0
+DynaCol/DCBO,Normal Load,500,9,0.0
+DynaCol/DCBO,Normal Load,500,10,1.426
+DynaCol/DCBO,Normal Load,1000,1,0.0
+DynaCol/DCBO,Normal Load,1000,2,0.0
+DynaCol/DCBO,Normal Load,1000,3,0.703
+DynaCol/DCBO,Normal Load,1000,4,0.0
+DynaCol/DCBO,Normal Load,1000,5,0.0
+DynaCol/DCBO,Normal Load,1000,6,0.703
+DynaCol/DCBO,Normal Load,1000,7,0.0
+DynaCol/DCBO,Normal Load,1000,8,0.0
+DynaCol/DCBO,Normal Load,1000,9,0.703
+DynaCol/DCBO,Normal Load,1000,10,0.0
+DynaCol/DCBO,Burst Load,100,1,12.813
+DynaCol/DCBO,Burst Load,100,2,17.734
+DynaCol/DCBO,Burst Load,100,3,12.817
+DynaCol/DCBO,Burst Load,100,4,12.813
+DynaCol/DCBO,Burst Load,100,5,17.734
+DynaCol/DCBO,Burst Load,100,6,12.817
+DynaCol/DCBO,Burst Load,100,7,12.813
+DynaCol/DCBO,Burst Load,100,8,17.734
+DynaCol/DCBO,Burst Load,100,9,12.817
+DynaCol/DCBO,Burst Load,100,10,12.813
+DynaCol/DCBO,Burst Load,300,1,2.397
+DynaCol/DCBO,Burst Load,300,2,0.0
+DynaCol/DCBO,Burst Load,300,3,0.0
+DynaCol/DCBO,Burst Load,300,4,2.397
+DynaCol/DCBO,Burst Load,300,5,0.0
+DynaCol/DCBO,Burst Load,300,6,0.0
+DynaCol/DCBO,Burst Load,300,7,2.397
+DynaCol/DCBO,Burst Load,300,8,0.0
+DynaCol/DCBO,Burst Load,300,9,0.0
+DynaCol/DCBO,Burst Load,300,10,2.397
+DynaCol/DCBO,Burst Load,500,1,0.0
+DynaCol/DCBO,Burst Load,500,2,1.414
+DynaCol/DCBO,Burst Load,500,3,0.0
+DynaCol/DCBO,Burst Load,500,4,0.0
+DynaCol/DCBO,Burst Load,500,5,1.414
+DynaCol/DCBO,Burst Load,500,6,0.0
+DynaCol/DCBO,Burst Load,500,7,0.0
+DynaCol/DCBO,Burst Load,500,8,1.414
+DynaCol/DCBO,Burst Load,500,9,0.0
+DynaCol/DCBO,Burst Load,500,10,0.0
+DynaCol/DCBO,Burst Load,1000,1,0.717
+DynaCol/DCBO,Burst Load,1000,2,0.0
+DynaCol/DCBO,Burst Load,1000,3,0.0
+DynaCol/DCBO,Burst Load,1000,4,0.717
+DynaCol/DCBO,Burst Load,1000,5,0.0
+DynaCol/DCBO,Burst Load,1000,6,0.0
+DynaCol/DCBO,Burst Load,1000,7,0.717
+DynaCol/DCBO,Burst Load,1000,8,0.0
+DynaCol/DCBO,Burst Load,1000,9,0.0
+DynaCol/DCBO,Burst Load,1000,10,0.717
+DynaCol/DCBO,Churn,100,1,13.34
+DynaCol/DCBO,Churn,100,2,13.341
+DynaCol/DCBO,Churn,100,3,18.418
+DynaCol/DCBO,Churn,100,4,13.34
+DynaCol/DCBO,Churn,100,5,13.341
+DynaCol/DCBO,Churn,100,6,18.418
+DynaCol/DCBO,Churn,100,7,13.34
+DynaCol/DCBO,Churn,100,8,13.341
+DynaCol/DCBO,Churn,100,9,18.418
+DynaCol/DCBO,Churn,100,10,13.34
+DynaCol/DCBO,Churn,300,1,0.0
+DynaCol/DCBO,Churn,300,2,0.0
+DynaCol/DCBO,Churn,300,3,2.479
+DynaCol/DCBO,Churn,300,4,0.0
+DynaCol/DCBO,Churn,300,5,0.0
+DynaCol/DCBO,Churn,300,6,2.479
+DynaCol/DCBO,Churn,300,7,0.0
+DynaCol/DCBO,Churn,300,8,0.0
+DynaCol/DCBO,Churn,300,9,2.479
+DynaCol/DCBO,Churn,300,10,0.0
+DynaCol/DCBO,Churn,500,1,0.0
+DynaCol/DCBO,Churn,500,2,0.0
+DynaCol/DCBO,Churn,500,3,1.466
+DynaCol/DCBO,Churn,500,4,0.0
+DynaCol/DCBO,Churn,500,5,0.0
+DynaCol/DCBO,Churn,500,6,1.466
+DynaCol/DCBO,Churn,500,7,0.0
+DynaCol/DCBO,Churn,500,8,0.0
+DynaCol/DCBO,Churn,500,9,1.466
+DynaCol/DCBO,Churn,500,10,0.0
+DynaCol/DCBO,Churn,1000,1,0.0
+DynaCol/DCBO,Churn,1000,2,0.0
+DynaCol/DCBO,Churn,1000,3,0.73
+DynaCol/DCBO,Churn,1000,4,0.0
+DynaCol/DCBO,Churn,1000,5,0.0
+DynaCol/DCBO,Churn,1000,6,0.73
+DynaCol/DCBO,Churn,1000,7,0.0
+DynaCol/DCBO,Churn,1000,8,0.0
+DynaCol/DCBO,Churn,1000,9,0.73
+DynaCol/DCBO,Churn,1000,10,0.0
+FogPlan-MinCost,Normal Load,100,1,42.023
+FogPlan-MinCost,Normal Load,100,2,42.066
+FogPlan-MinCost,Normal Load,100,3,42.114
+FogPlan-MinCost,Normal Load,100,4,42.14
+FogPlan-MinCost,Normal Load,100,5,42.106
+FogPlan-MinCost,Normal Load,100,6,42.053
+FogPlan-MinCost,Normal Load,100,7,42.106
+FogPlan-MinCost,Normal Load,100,8,42.066
+FogPlan-MinCost,Normal Load,100,9,42.106
+FogPlan-MinCost,Normal Load,100,10,42.062
+FogPlan-MinCost,Normal Load,300,1,25.393
+FogPlan-MinCost,Normal Load,300,2,24.661
+FogPlan-MinCost,Normal Load,300,3,25.443
+FogPlan-MinCost,Normal Load,300,4,25.464
+FogPlan-MinCost,Normal Load,300,5,24.653
+FogPlan-MinCost,Normal Load,300,6,25.482
+FogPlan-MinCost,Normal Load,300,7,25.421
+FogPlan-MinCost,Normal Load,300,8,24.615
+FogPlan-MinCost,Normal Load,300,9,25.433
+FogPlan-MinCost,Normal Load,300,10,25.464
+FogPlan-MinCost,Normal Load,500,1,21.231
+FogPlan-MinCost,Normal Load,500,2,20.712
+FogPlan-MinCost,Normal Load,500,3,20.698
+FogPlan-MinCost,Normal Load,500,4,21.203
+FogPlan-MinCost,Normal Load,500,5,20.663
+FogPlan-MinCost,Normal Load,500,6,20.702
+FogPlan-MinCost,Normal Load,500,7,21.247
+FogPlan-MinCost,Normal Load,500,8,20.689
+FogPlan-MinCost,Normal Load,500,9,20.713
+FogPlan-MinCost,Normal Load,500,10,21.222
+FogPlan-MinCost,Normal Load,1000,1,16.863
+FogPlan-MinCost,Normal Load,1000,2,16.874
+FogPlan-MinCost,Normal Load,1000,3,16.89
+FogPlan-MinCost,Normal Load,1000,4,16.884
+FogPlan-MinCost,Normal Load,1000,5,16.874
+FogPlan-MinCost,Normal Load,1000,6,16.891
+FogPlan-MinCost,Normal Load,1000,7,16.866
+FogPlan-MinCost,Normal Load,1000,8,16.86
+FogPlan-MinCost,Normal Load,1000,9,16.888
+FogPlan-MinCost,Normal Load,1000,10,16.872
+FogPlan-MinCost,Burst Load,100,1,41.922
+FogPlan-MinCost,Burst Load,100,2,41.878
+FogPlan-MinCost,Burst Load,100,3,41.8
+FogPlan-MinCost,Burst Load,100,4,42.004
+FogPlan-MinCost,Burst Load,100,5,41.891
+FogPlan-MinCost,Burst Load,100,6,41.969
+FogPlan-MinCost,Burst Load,100,7,41.995
+FogPlan-MinCost,Burst Load,100,8,41.965
+FogPlan-MinCost,Burst Load,100,9,41.974
+FogPlan-MinCost,Burst Load,100,10,41.922
+FogPlan-MinCost,Burst Load,300,1,24.538
+FogPlan-MinCost,Burst Load,300,2,25.309
+FogPlan-MinCost,Burst Load,300,3,25.346
+FogPlan-MinCost,Burst Load,300,4,24.514
+FogPlan-MinCost,Burst Load,300,5,25.38
+FogPlan-MinCost,Burst Load,300,6,25.338
+FogPlan-MinCost,Burst Load,300,7,24.487
+FogPlan-MinCost,Burst Load,300,8,25.38
+FogPlan-MinCost,Burst Load,300,9,25.346
+FogPlan-MinCost,Burst Load,300,10,24.603
+FogPlan-MinCost,Burst Load,500,1,20.623
+FogPlan-MinCost,Burst Load,500,2,20.654
+FogPlan-MinCost,Burst Load,500,3,21.23
+FogPlan-MinCost,Burst Load,500,4,20.637
+FogPlan-MinCost,Burst Load,500,5,20.618
+FogPlan-MinCost,Burst Load,500,6,21.149
+FogPlan-MinCost,Burst Load,500,7,20.612
+FogPlan-MinCost,Burst Load,500,8,20.639
+FogPlan-MinCost,Burst Load,500,9,21.225
+FogPlan-MinCost,Burst Load,500,10,20.606
+FogPlan-MinCost,Burst Load,1000,1,17.238
+FogPlan-MinCost,Burst Load,1000,2,17.234
+FogPlan-MinCost,Burst Load,1000,3,17.251
+FogPlan-MinCost,Burst Load,1000,4,17.242
+FogPlan-MinCost,Burst Load,1000,5,17.233
+FogPlan-MinCost,Burst Load,1000,6,17.229
+FogPlan-MinCost,Burst Load,1000,7,17.257
+FogPlan-MinCost,Burst Load,1000,8,17.25
+FogPlan-MinCost,Burst Load,1000,9,17.239
+FogPlan-MinCost,Burst Load,1000,10,17.258
+FogPlan-MinCost,Churn,100,1,42.382
+FogPlan-MinCost,Churn,100,2,42.503
+FogPlan-MinCost,Churn,100,3,42.559
+FogPlan-MinCost,Churn,100,4,42.568
+FogPlan-MinCost,Churn,100,5,42.477
+FogPlan-MinCost,Churn,100,6,42.417
+FogPlan-MinCost,Churn,100,7,42.365
+FogPlan-MinCost,Churn,100,8,42.465
+FogPlan-MinCost,Churn,100,9,42.486
+FogPlan-MinCost,Churn,100,10,42.395
+FogPlan-MinCost,Churn,300,1,25.718
+FogPlan-MinCost,Churn,300,2,24.912
+FogPlan-MinCost,Churn,300,3,25.791
+FogPlan-MinCost,Churn,300,4,25.805
+FogPlan-MinCost,Churn,300,5,24.851
+FogPlan-MinCost,Churn,300,6,25.759
+FogPlan-MinCost,Churn,300,7,25.803
+FogPlan-MinCost,Churn,300,8,24.945
+FogPlan-MinCost,Churn,300,9,25.748
+FogPlan-MinCost,Churn,300,10,25.751
+FogPlan-MinCost,Churn,500,1,21.047
+FogPlan-MinCost,Churn,500,2,21.05
+FogPlan-MinCost,Churn,500,3,21.632
+FogPlan-MinCost,Churn,500,4,21.022
+FogPlan-MinCost,Churn,500,5,21.065
+FogPlan-MinCost,Churn,500,6,21.594
+FogPlan-MinCost,Churn,500,7,21.049
+FogPlan-MinCost,Churn,500,8,21.035
+FogPlan-MinCost,Churn,500,9,21.616
+FogPlan-MinCost,Churn,500,10,21.026
+FogPlan-MinCost,Churn,1000,1,17.408
+FogPlan-MinCost,Churn,1000,2,17.426
+FogPlan-MinCost,Churn,1000,3,17.422
+FogPlan-MinCost,Churn,1000,4,17.425
+FogPlan-MinCost,Churn,1000,5,17.417
+FogPlan-MinCost,Churn,1000,6,17.41
+FogPlan-MinCost,Churn,1000,7,17.402
+FogPlan-MinCost,Churn,1000,8,17.42
+FogPlan-MinCost,Churn,1000,9,17.414
+FogPlan-MinCost,Churn,1000,10,17.426
+Static-DCBO,Normal Load,100,1,21.963
+Static-DCBO,Normal Load,100,2,18.366
+Static-DCBO,Normal Load,100,3,18.368
+Static-DCBO,Normal Load,100,4,21.963
+Static-DCBO,Normal Load,100,5,18.366
+Static-DCBO,Normal Load,100,6,18.368
+Static-DCBO,Normal Load,100,7,21.963
+Static-DCBO,Normal Load,100,8,18.366
+Static-DCBO,Normal Load,100,9,18.368
+Static-DCBO,Normal Load,100,10,21.963
+Static-DCBO,Normal Load,300,1,19.522
+Static-DCBO,Normal Load,300,2,19.521
+Static-DCBO,Normal Load,300,3,18.4
+Static-DCBO,Normal Load,300,4,19.522
+Static-DCBO,Normal Load,300,5,19.521
+Static-DCBO,Normal Load,300,6,18.4
+Static-DCBO,Normal Load,300,7,19.522
+Static-DCBO,Normal Load,300,8,19.521
+Static-DCBO,Normal Load,300,9,18.4
+Static-DCBO,Normal Load,300,10,19.522
+Static-DCBO,Normal Load,500,1,18.978
+Static-DCBO,Normal Load,500,2,18.978
+Static-DCBO,Normal Load,500,3,18.978
+Static-DCBO,Normal Load,500,4,18.978
+Static-DCBO,Normal Load,500,5,18.978
+Static-DCBO,Normal Load,500,6,18.978
+Static-DCBO,Normal Load,500,7,18.978
+Static-DCBO,Normal Load,500,8,18.978
+Static-DCBO,Normal Load,500,9,18.978
+Static-DCBO,Normal Load,500,10,18.978
+Static-DCBO,Normal Load,1000,1,18.195
+Static-DCBO,Normal Load,1000,2,18.195
+Static-DCBO,Normal Load,1000,3,18.514
+Static-DCBO,Normal Load,1000,4,18.195
+Static-DCBO,Normal Load,1000,5,18.195
+Static-DCBO,Normal Load,1000,6,18.514
+Static-DCBO,Normal Load,1000,7,18.195
+Static-DCBO,Normal Load,1000,8,18.195
+Static-DCBO,Normal Load,1000,9,18.514
+Static-DCBO,Normal Load,1000,10,18.195
+Static-DCBO,Burst Load,100,1,21.878
+Static-DCBO,Burst Load,100,2,18.267
+Static-DCBO,Burst Load,100,3,18.263
+Static-DCBO,Burst Load,100,4,21.878
+Static-DCBO,Burst Load,100,5,18.267
+Static-DCBO,Burst Load,100,6,18.263
+Static-DCBO,Burst Load,100,7,21.878
+Static-DCBO,Burst Load,100,8,18.267
+Static-DCBO,Burst Load,100,9,18.263
+Static-DCBO,Burst Load,100,10,21.878
+Static-DCBO,Burst Load,300,1,18.429
+Static-DCBO,Burst Load,300,2,19.563
+Static-DCBO,Burst Load,300,3,19.564
+Static-DCBO,Burst Load,300,4,18.429
+Static-DCBO,Burst Load,300,5,19.563
+Static-DCBO,Burst Load,300,6,19.564
+Static-DCBO,Burst Load,300,7,18.429
+Static-DCBO,Burst Load,300,8,19.563
+Static-DCBO,Burst Load,300,9,19.564
+Static-DCBO,Burst Load,300,10,18.429
+Static-DCBO,Burst Load,500,1,19.011
+Static-DCBO,Burst Load,500,2,19.011
+Static-DCBO,Burst Load,500,3,19.011
+Static-DCBO,Burst Load,500,4,19.011
+Static-DCBO,Burst Load,500,5,19.011
+Static-DCBO,Burst Load,500,6,19.011
+Static-DCBO,Burst Load,500,7,19.011
+Static-DCBO,Burst Load,500,8,19.011
+Static-DCBO,Burst Load,500,9,19.011
+Static-DCBO,Burst Load,500,10,19.011
+Static-DCBO,Burst Load,1000,1,18.718
+Static-DCBO,Burst Load,1000,2,18.718
+Static-DCBO,Burst Load,1000,3,19.049
+Static-DCBO,Burst Load,1000,4,18.718
+Static-DCBO,Burst Load,1000,5,18.718
+Static-DCBO,Burst Load,1000,6,19.049
+Static-DCBO,Burst Load,1000,7,18.718
+Static-DCBO,Burst Load,1000,8,18.718
+Static-DCBO,Burst Load,1000,9,19.049
+Static-DCBO,Burst Load,1000,10,18.718
+Static-DCBO,Churn,100,1,18.976
+Static-DCBO,Churn,100,2,18.977
+Static-DCBO,Churn,100,3,22.691
+Static-DCBO,Churn,100,4,18.976
+Static-DCBO,Churn,100,5,18.977
+Static-DCBO,Churn,100,6,22.691
+Static-DCBO,Churn,100,7,18.976
+Static-DCBO,Churn,100,8,18.977
+Static-DCBO,Churn,100,9,22.691
+Static-DCBO,Churn,100,10,18.976
+Static-DCBO,Churn,300,1,18.885
+Static-DCBO,Churn,300,2,20.036
+Static-DCBO,Churn,300,3,20.036
+Static-DCBO,Churn,300,4,18.885
+Static-DCBO,Churn,300,5,20.036
+Static-DCBO,Churn,300,6,20.036
+Static-DCBO,Churn,300,7,18.885
+Static-DCBO,Churn,300,8,20.036
+Static-DCBO,Churn,300,9,20.036
+Static-DCBO,Churn,300,10,18.885
+Static-DCBO,Churn,500,1,19.513
+Static-DCBO,Churn,500,2,19.512
+Static-DCBO,Churn,500,3,19.598
+Static-DCBO,Churn,500,4,19.513
+Static-DCBO,Churn,500,5,19.512
+Static-DCBO,Churn,500,6,19.605
+Static-DCBO,Churn,500,7,19.513
+Static-DCBO,Churn,500,8,19.512
+Static-DCBO,Churn,500,9,19.598
+Static-DCBO,Churn,500,10,19.513
+Static-DCBO,Churn,1000,1,19.3
+Static-DCBO,Churn,1000,2,18.887
+Static-DCBO,Churn,1000,3,18.887
+Static-DCBO,Churn,1000,4,19.3
+Static-DCBO,Churn,1000,5,18.887
+Static-DCBO,Churn,1000,6,18.887
+Static-DCBO,Churn,1000,7,19.3
+Static-DCBO,Churn,1000,8,18.887
+Static-DCBO,Churn,1000,9,18.887
+Static-DCBO,Churn,1000,10,19.3
+Greedy-Nearest,Normal Load,100,1,21.963
+Greedy-Nearest,Normal Load,100,2,18.366
+Greedy-Nearest,Normal Load,100,3,18.368
+Greedy-Nearest,Normal Load,100,4,21.963
+Greedy-Nearest,Normal Load,100,5,18.366
+Greedy-Nearest,Normal Load,100,6,18.368
+Greedy-Nearest,Normal Load,100,7,21.963
+Greedy-Nearest,Normal Load,100,8,18.366
+Greedy-Nearest,Normal Load,100,9,18.368
+Greedy-Nearest,Normal Load,100,10,21.963
+Greedy-Nearest,Normal Load,300,1,19.522
+Greedy-Nearest,Normal Load,300,2,19.521
+Greedy-Nearest,Normal Load,300,3,18.4
+Greedy-Nearest,Normal Load,300,4,19.522
+Greedy-Nearest,Normal Load,300,5,19.521
+Greedy-Nearest,Normal Load,300,6,18.4
+Greedy-Nearest,Normal Load,300,7,19.522
+Greedy-Nearest,Normal Load,300,8,19.521
+Greedy-Nearest,Normal Load,300,9,18.4
+Greedy-Nearest,Normal Load,300,10,19.522
+Greedy-Nearest,Normal Load,500,1,18.978
+Greedy-Nearest,Normal Load,500,2,18.978
+Greedy-Nearest,Normal Load,500,3,18.978
+Greedy-Nearest,Normal Load,500,4,18.978
+Greedy-Nearest,Normal Load,500,5,18.978
+Greedy-Nearest,Normal Load,500,6,18.978
+Greedy-Nearest,Normal Load,500,7,18.978
+Greedy-Nearest,Normal Load,500,8,18.978
+Greedy-Nearest,Normal Load,500,9,18.978
+Greedy-Nearest,Normal Load,500,10,18.978
+Greedy-Nearest,Normal Load,1000,1,18.195
+Greedy-Nearest,Normal Load,1000,2,18.195
+Greedy-Nearest,Normal Load,1000,3,18.514
+Greedy-Nearest,Normal Load,1000,4,18.195
+Greedy-Nearest,Normal Load,1000,5,18.195
+Greedy-Nearest,Normal Load,1000,6,18.514
+Greedy-Nearest,Normal Load,1000,7,18.195
+Greedy-Nearest,Normal Load,1000,8,18.195
+Greedy-Nearest,Normal Load,1000,9,18.514
+Greedy-Nearest,Normal Load,1000,10,18.195
+Greedy-Nearest,Burst Load,100,1,18.263
+Greedy-Nearest,Burst Load,100,2,21.878
+Greedy-Nearest,Burst Load,100,3,18.267
+Greedy-Nearest,Burst Load,100,4,18.263
+Greedy-Nearest,Burst Load,100,5,21.878
+Greedy-Nearest,Burst Load,100,6,18.267
+Greedy-Nearest,Burst Load,100,7,18.263
+Greedy-Nearest,Burst Load,100,8,21.878
+Greedy-Nearest,Burst Load,100,9,18.267
+Greedy-Nearest,Burst Load,100,10,18.263
+Greedy-Nearest,Burst Load,300,1,19.563
+Greedy-Nearest,Burst Load,300,2,19.564
+Greedy-Nearest,Burst Load,300,3,18.429
+Greedy-Nearest,Burst Load,300,4,19.563
+Greedy-Nearest,Burst Load,300,5,19.564
+Greedy-Nearest,Burst Load,300,6,18.429
+Greedy-Nearest,Burst Load,300,7,19.563
+Greedy-Nearest,Burst Load,300,8,19.564
+Greedy-Nearest,Burst Load,300,9,18.429
+Greedy-Nearest,Burst Load,300,10,19.563
+Greedy-Nearest,Burst Load,500,1,19.011
+Greedy-Nearest,Burst Load,500,2,19.011
+Greedy-Nearest,Burst Load,500,3,19.011
+Greedy-Nearest,Burst Load,500,4,19.011
+Greedy-Nearest,Burst Load,500,5,19.011
+Greedy-Nearest,Burst Load,500,6,19.011
+Greedy-Nearest,Burst Load,500,7,19.011
+Greedy-Nearest,Burst Load,500,8,19.011
+Greedy-Nearest,Burst Load,500,9,19.011
+Greedy-Nearest,Burst Load,500,10,19.011
+Greedy-Nearest,Burst Load,1000,1,18.718
+Greedy-Nearest,Burst Load,1000,2,18.718
+Greedy-Nearest,Burst Load,1000,3,19.049
+Greedy-Nearest,Burst Load,1000,4,18.718
+Greedy-Nearest,Burst Load,1000,5,18.718
+Greedy-Nearest,Burst Load,1000,6,19.049
+Greedy-Nearest,Burst Load,1000,7,18.718
+Greedy-Nearest,Burst Load,1000,8,18.718
+Greedy-Nearest,Burst Load,1000,9,19.049
+Greedy-Nearest,Burst Load,1000,10,18.718
+Greedy-Nearest,Churn,100,1,22.691
+Greedy-Nearest,Churn,100,2,18.976
+Greedy-Nearest,Churn,100,3,18.977
+Greedy-Nearest,Churn,100,4,22.691
+Greedy-Nearest,Churn,100,5,18.976
+Greedy-Nearest,Churn,100,6,18.977
+Greedy-Nearest,Churn,100,7,22.691
+Greedy-Nearest,Churn,100,8,18.976
+Greedy-Nearest,Churn,100,9,18.977
+Greedy-Nearest,Churn,100,10,22.691
+Greedy-Nearest,Churn,300,1,20.036
+Greedy-Nearest,Churn,300,2,20.036
+Greedy-Nearest,Churn,300,3,18.885
+Greedy-Nearest,Churn,300,4,20.036
+Greedy-Nearest,Churn,300,5,20.036
+Greedy-Nearest,Churn,300,6,18.885
+Greedy-Nearest,Churn,300,7,20.036
+Greedy-Nearest,Churn,300,8,20.036
+Greedy-Nearest,Churn,300,9,18.885
+Greedy-Nearest,Churn,300,10,20.036
+Greedy-Nearest,Churn,500,1,19.512
+Greedy-Nearest,Churn,500,2,19.512
+Greedy-Nearest,Churn,500,3,19.512
+Greedy-Nearest,Churn,500,4,19.512
+Greedy-Nearest,Churn,500,5,19.512
+Greedy-Nearest,Churn,500,6,19.512
+Greedy-Nearest,Churn,500,7,19.512
+Greedy-Nearest,Churn,500,8,19.512
+Greedy-Nearest,Churn,500,9,19.512
+Greedy-Nearest,Churn,500,10,19.512
+Greedy-Nearest,Churn,1000,1,18.887
+Greedy-Nearest,Churn,1000,2,19.218
+Greedy-Nearest,Churn,1000,3,18.886
+Greedy-Nearest,Churn,1000,4,18.887
+Greedy-Nearest,Churn,1000,5,19.218
+Greedy-Nearest,Churn,1000,6,18.886
+Greedy-Nearest,Churn,1000,7,18.887
+Greedy-Nearest,Churn,1000,8,19.218
+Greedy-Nearest,Churn,1000,9,18.886
+Greedy-Nearest,Churn,1000,10,18.887
+Tavousi-Fuzzy,Normal Load,100,1,21.963
+Tavousi-Fuzzy,Normal Load,100,2,18.366
+Tavousi-Fuzzy,Normal Load,100,3,18.368
+Tavousi-Fuzzy,Normal Load,100,4,21.963
+Tavousi-Fuzzy,Normal Load,100,5,18.366
+Tavousi-Fuzzy,Normal Load,100,6,18.368
+Tavousi-Fuzzy,Normal Load,100,7,21.963
+Tavousi-Fuzzy,Normal Load,100,8,18.366
+Tavousi-Fuzzy,Normal Load,100,9,18.368
+Tavousi-Fuzzy,Normal Load,100,10,21.963
+Tavousi-Fuzzy,Normal Load,300,1,19.522
+Tavousi-Fuzzy,Normal Load,300,2,19.521
+Tavousi-Fuzzy,Normal Load,300,3,18.4
+Tavousi-Fuzzy,Normal Load,300,4,19.522
+Tavousi-Fuzzy,Normal Load,300,5,19.521
+Tavousi-Fuzzy,Normal Load,300,6,18.4
+Tavousi-Fuzzy,Normal Load,300,7,19.522
+Tavousi-Fuzzy,Normal Load,300,8,19.521
+Tavousi-Fuzzy,Normal Load,300,9,18.4
+Tavousi-Fuzzy,Normal Load,300,10,19.522
+Tavousi-Fuzzy,Normal Load,500,1,18.978
+Tavousi-Fuzzy,Normal Load,500,2,18.978
+Tavousi-Fuzzy,Normal Load,500,3,18.978
+Tavousi-Fuzzy,Normal Load,500,4,18.978
+Tavousi-Fuzzy,Normal Load,500,5,18.978
+Tavousi-Fuzzy,Normal Load,500,6,18.978
+Tavousi-Fuzzy,Normal Load,500,7,18.978
+Tavousi-Fuzzy,Normal Load,500,8,18.978
+Tavousi-Fuzzy,Normal Load,500,9,18.978
+Tavousi-Fuzzy,Normal Load,500,10,18.978
+Tavousi-Fuzzy,Normal Load,1000,1,18.195
+Tavousi-Fuzzy,Normal Load,1000,2,18.195
+Tavousi-Fuzzy,Normal Load,1000,3,18.514
+Tavousi-Fuzzy,Normal Load,1000,4,18.195
+Tavousi-Fuzzy,Normal Load,1000,5,18.195
+Tavousi-Fuzzy,Normal Load,1000,6,18.514
+Tavousi-Fuzzy,Normal Load,1000,7,18.195
+Tavousi-Fuzzy,Normal Load,1000,8,18.195
+Tavousi-Fuzzy,Normal Load,1000,9,18.514
+Tavousi-Fuzzy,Normal Load,1000,10,18.195
+Tavousi-Fuzzy,Burst Load,100,1,21.878
+Tavousi-Fuzzy,Burst Load,100,2,18.267
+Tavousi-Fuzzy,Burst Load,100,3,18.263
+Tavousi-Fuzzy,Burst Load,100,4,21.878
+Tavousi-Fuzzy,Burst Load,100,5,18.267
+Tavousi-Fuzzy,Burst Load,100,6,18.263
+Tavousi-Fuzzy,Burst Load,100,7,21.878
+Tavousi-Fuzzy,Burst Load,100,8,18.267
+Tavousi-Fuzzy,Burst Load,100,9,18.263
+Tavousi-Fuzzy,Burst Load,100,10,21.878
+Tavousi-Fuzzy,Burst Load,300,1,19.563
+Tavousi-Fuzzy,Burst Load,300,2,19.564
+Tavousi-Fuzzy,Burst Load,300,3,18.429
+Tavousi-Fuzzy,Burst Load,300,4,19.563
+Tavousi-Fuzzy,Burst Load,300,5,19.564
+Tavousi-Fuzzy,Burst Load,300,6,18.429
+Tavousi-Fuzzy,Burst Load,300,7,19.563
+Tavousi-Fuzzy,Burst Load,300,8,19.564
+Tavousi-Fuzzy,Burst Load,300,9,18.429
+Tavousi-Fuzzy,Burst Load,300,10,19.563
+Tavousi-Fuzzy,Burst Load,500,1,19.011
+Tavousi-Fuzzy,Burst Load,500,2,19.011
+Tavousi-Fuzzy,Burst Load,500,3,19.011
+Tavousi-Fuzzy,Burst Load,500,4,19.011
+Tavousi-Fuzzy,Burst Load,500,5,19.011
+Tavousi-Fuzzy,Burst Load,500,6,19.011
+Tavousi-Fuzzy,Burst Load,500,7,19.011
+Tavousi-Fuzzy,Burst Load,500,8,19.011
+Tavousi-Fuzzy,Burst Load,500,9,19.011
+Tavousi-Fuzzy,Burst Load,500,10,19.011
+Tavousi-Fuzzy,Burst Load,1000,1,18.718
+Tavousi-Fuzzy,Burst Load,1000,2,18.718
+Tavousi-Fuzzy,Burst Load,1000,3,19.049
+Tavousi-Fuzzy,Burst Load,1000,4,18.718
+Tavousi-Fuzzy,Burst Load,1000,5,18.718
+Tavousi-Fuzzy,Burst Load,1000,6,19.049
+Tavousi-Fuzzy,Burst Load,1000,7,18.718
+Tavousi-Fuzzy,Burst Load,1000,8,18.718
+Tavousi-Fuzzy,Burst Load,1000,9,19.049
+Tavousi-Fuzzy,Burst Load,1000,10,18.718
+Tavousi-Fuzzy,Churn,100,1,22.691
+Tavousi-Fuzzy,Churn,100,2,18.976
+Tavousi-Fuzzy,Churn,100,3,18.977
+Tavousi-Fuzzy,Churn,100,4,22.691
+Tavousi-Fuzzy,Churn,100,5,18.976
+Tavousi-Fuzzy,Churn,100,6,18.977
+Tavousi-Fuzzy,Churn,100,7,22.691
+Tavousi-Fuzzy,Churn,100,8,18.976
+Tavousi-Fuzzy,Churn,100,9,18.977
+Tavousi-Fuzzy,Churn,100,10,22.691
+Tavousi-Fuzzy,Churn,300,1,20.036
+Tavousi-Fuzzy,Churn,300,2,20.036
+Tavousi-Fuzzy,Churn,300,3,18.885
+Tavousi-Fuzzy,Churn,300,4,20.036
+Tavousi-Fuzzy,Churn,300,5,20.036
+Tavousi-Fuzzy,Churn,300,6,18.885
+Tavousi-Fuzzy,Churn,300,7,20.036
+Tavousi-Fuzzy,Churn,300,8,20.036
+Tavousi-Fuzzy,Churn,300,9,18.885
+Tavousi-Fuzzy,Churn,300,10,20.036
+Tavousi-Fuzzy,Churn,500,1,19.512
+Tavousi-Fuzzy,Churn,500,2,19.512
+Tavousi-Fuzzy,Churn,500,3,19.512
+Tavousi-Fuzzy,Churn,500,4,19.512
+Tavousi-Fuzzy,Churn,500,5,19.512
+Tavousi-Fuzzy,Churn,500,6,19.512
+Tavousi-Fuzzy,Churn,500,7,19.512
+Tavousi-Fuzzy,Churn,500,8,19.512
+Tavousi-Fuzzy,Churn,500,9,19.512
+Tavousi-Fuzzy,Churn,500,10,19.512
+Tavousi-Fuzzy,Churn,1000,1,18.886
+Tavousi-Fuzzy,Churn,1000,2,18.887
+Tavousi-Fuzzy,Churn,1000,3,19.218
+Tavousi-Fuzzy,Churn,1000,4,18.886
+Tavousi-Fuzzy,Churn,1000,5,18.887
+Tavousi-Fuzzy,Churn,1000,6,19.218
+Tavousi-Fuzzy,Churn,1000,7,18.886
+Tavousi-Fuzzy,Churn,1000,8,18.887
+Tavousi-Fuzzy,Churn,1000,9,19.218
+Tavousi-Fuzzy,Churn,1000,10,18.886
+Dogani-TwoTier,Normal Load,100,1,21.963
+Dogani-TwoTier,Normal Load,100,2,18.366
+Dogani-TwoTier,Normal Load,100,3,18.368
+Dogani-TwoTier,Normal Load,100,4,21.963
+Dogani-TwoTier,Normal Load,100,5,18.366
+Dogani-TwoTier,Normal Load,100,6,18.368
+Dogani-TwoTier,Normal Load,100,7,21.963
+Dogani-TwoTier,Normal Load,100,8,18.366
+Dogani-TwoTier,Normal Load,100,9,18.368
+Dogani-TwoTier,Normal Load,100,10,21.963
+Dogani-TwoTier,Normal Load,300,1,19.521
+Dogani-TwoTier,Normal Load,300,2,18.4
+Dogani-TwoTier,Normal Load,300,3,19.522
+Dogani-TwoTier,Normal Load,300,4,19.521
+Dogani-TwoTier,Normal Load,300,5,18.4
+Dogani-TwoTier,Normal Load,300,6,19.522
+Dogani-TwoTier,Normal Load,300,7,19.521
+Dogani-TwoTier,Normal Load,300,8,18.4
+Dogani-TwoTier,Normal Load,300,9,19.522
+Dogani-TwoTier,Normal Load,300,10,19.521
+Dogani-TwoTier,Normal Load,500,1,18.978
+Dogani-TwoTier,Normal Load,500,2,18.978
+Dogani-TwoTier,Normal Load,500,3,18.978
+Dogani-TwoTier,Normal Load,500,4,18.978
+Dogani-TwoTier,Normal Load,500,5,18.978
+Dogani-TwoTier,Normal Load,500,6,18.978
+Dogani-TwoTier,Normal Load,500,7,18.978
+Dogani-TwoTier,Normal Load,500,8,18.978
+Dogani-TwoTier,Normal Load,500,9,18.978
+Dogani-TwoTier,Normal Load,500,10,18.978
+Dogani-TwoTier,Normal Load,1000,1,18.195
+Dogani-TwoTier,Normal Load,1000,2,18.195
+Dogani-TwoTier,Normal Load,1000,3,18.514
+Dogani-TwoTier,Normal Load,1000,4,18.195
+Dogani-TwoTier,Normal Load,1000,5,18.195
+Dogani-TwoTier,Normal Load,1000,6,18.514
+Dogani-TwoTier,Normal Load,1000,7,18.195
+Dogani-TwoTier,Normal Load,1000,8,18.195
+Dogani-TwoTier,Normal Load,1000,9,18.514
+Dogani-TwoTier,Normal Load,1000,10,18.195
+Dogani-TwoTier,Burst Load,100,1,21.878
+Dogani-TwoTier,Burst Load,100,2,18.267
+Dogani-TwoTier,Burst Load,100,3,18.263
+Dogani-TwoTier,Burst Load,100,4,21.878
+Dogani-TwoTier,Burst Load,100,5,18.267
+Dogani-TwoTier,Burst Load,100,6,18.263
+Dogani-TwoTier,Burst Load,100,7,21.878
+Dogani-TwoTier,Burst Load,100,8,18.267
+Dogani-TwoTier,Burst Load,100,9,18.263
+Dogani-TwoTier,Burst Load,100,10,21.878
+Dogani-TwoTier,Burst Load,300,1,19.564
+Dogani-TwoTier,Burst Load,300,2,18.429
+Dogani-TwoTier,Burst Load,300,3,19.563
+Dogani-TwoTier,Burst Load,300,4,19.564
+Dogani-TwoTier,Burst Load,300,5,18.429
+Dogani-TwoTier,Burst Load,300,6,19.563
+Dogani-TwoTier,Burst Load,300,7,19.564
+Dogani-TwoTier,Burst Load,300,8,18.429
+Dogani-TwoTier,Burst Load,300,9,19.563
+Dogani-TwoTier,Burst Load,300,10,19.564
+Dogani-TwoTier,Burst Load,500,1,19.011
+Dogani-TwoTier,Burst Load,500,2,19.011
+Dogani-TwoTier,Burst Load,500,3,19.011
+Dogani-TwoTier,Burst Load,500,4,19.011
+Dogani-TwoTier,Burst Load,500,5,19.011
+Dogani-TwoTier,Burst Load,500,6,19.011
+Dogani-TwoTier,Burst Load,500,7,19.011
+Dogani-TwoTier,Burst Load,500,8,19.011
+Dogani-TwoTier,Burst Load,500,9,19.011
+Dogani-TwoTier,Burst Load,500,10,19.011
+Dogani-TwoTier,Burst Load,1000,1,18.718
+Dogani-TwoTier,Burst Load,1000,2,18.718
+Dogani-TwoTier,Burst Load,1000,3,19.049
+Dogani-TwoTier,Burst Load,1000,4,18.718
+Dogani-TwoTier,Burst Load,1000,5,18.718
+Dogani-TwoTier,Burst Load,1000,6,19.049
+Dogani-TwoTier,Burst Load,1000,7,18.718
+Dogani-TwoTier,Burst Load,1000,8,18.718
+Dogani-TwoTier,Burst Load,1000,9,19.049
+Dogani-TwoTier,Burst Load,1000,10,18.718
+Dogani-TwoTier,Churn,100,1,18.976
+Dogani-TwoTier,Churn,100,2,18.977
+Dogani-TwoTier,Churn,100,3,22.691
+Dogani-TwoTier,Churn,100,4,18.976
+Dogani-TwoTier,Churn,100,5,18.977
+Dogani-TwoTier,Churn,100,6,22.691
+Dogani-TwoTier,Churn,100,7,18.976
+Dogani-TwoTier,Churn,100,8,18.977
+Dogani-TwoTier,Churn,100,9,22.691
+Dogani-TwoTier,Churn,100,10,18.976
+Dogani-TwoTier,Churn,300,1,18.885
+Dogani-TwoTier,Churn,300,2,20.036
+Dogani-TwoTier,Churn,300,3,20.036
+Dogani-TwoTier,Churn,300,4,18.885
+Dogani-TwoTier,Churn,300,5,20.036
+Dogani-TwoTier,Churn,300,6,20.036
+Dogani-TwoTier,Churn,300,7,18.885
+Dogani-TwoTier,Churn,300,8,20.036
+Dogani-TwoTier,Churn,300,9,20.036
+Dogani-TwoTier,Churn,300,10,18.885
+Dogani-TwoTier,Churn,500,1,19.512
+Dogani-TwoTier,Churn,500,2,19.512
+Dogani-TwoTier,Churn,500,3,19.512
+Dogani-TwoTier,Churn,500,4,19.512
+Dogani-TwoTier,Churn,500,5,19.512
+Dogani-TwoTier,Churn,500,6,19.512
+Dogani-TwoTier,Churn,500,7,19.512
+Dogani-TwoTier,Churn,500,8,19.512
+Dogani-TwoTier,Churn,500,9,19.512
+Dogani-TwoTier,Churn,500,10,19.512
+Dogani-TwoTier,Churn,1000,1,18.887
+Dogani-TwoTier,Churn,1000,2,19.218
+Dogani-TwoTier,Churn,1000,3,18.886
+Dogani-TwoTier,Churn,1000,4,18.887
+Dogani-TwoTier,Churn,1000,5,19.218
+Dogani-TwoTier,Churn,1000,6,18.886
+Dogani-TwoTier,Churn,1000,7,18.887
+Dogani-TwoTier,Churn,1000,8,19.218
+Dogani-TwoTier,Churn,1000,9,18.886
+Dogani-TwoTier,Churn,1000,10,18.887
+Edgeward,Normal Load,100,1,74.727
+Edgeward,Normal Load,100,2,85.589
+Edgeward,Normal Load,100,3,100.0
+Edgeward,Normal Load,100,4,74.71
+Edgeward,Normal Load,100,5,85.588
+Edgeward,Normal Load,100,6,100.0
+Edgeward,Normal Load,100,7,74.742
+Edgeward,Normal Load,100,8,85.581
+Edgeward,Normal Load,100,9,100.0
+Edgeward,Normal Load,100,10,74.721
+Edgeward,Normal Load,300,1,0.0
+Edgeward,Normal Load,300,2,0.0
+Edgeward,Normal Load,300,3,0.0
+Edgeward,Normal Load,300,4,0.0
+Edgeward,Normal Load,300,5,0.0
+Edgeward,Normal Load,300,6,0.0
+Edgeward,Normal Load,300,7,0.0
+Edgeward,Normal Load,300,8,0.0
+Edgeward,Normal Load,300,9,0.0
+Edgeward,Normal Load,300,10,0.0
+Edgeward,Normal Load,500,1,0.0
+Edgeward,Normal Load,500,2,0.0
+Edgeward,Normal Load,500,3,0.0
+Edgeward,Normal Load,500,4,0.0
+Edgeward,Normal Load,500,5,0.0
+Edgeward,Normal Load,500,6,0.0
+Edgeward,Normal Load,500,7,0.0
+Edgeward,Normal Load,500,8,0.0
+Edgeward,Normal Load,500,9,0.0
+Edgeward,Normal Load,500,10,0.0
+Edgeward,Normal Load,1000,1,0.0
+Edgeward,Normal Load,1000,2,0.0
+Edgeward,Normal Load,1000,3,0.0
+Edgeward,Normal Load,1000,4,0.0
+Edgeward,Normal Load,1000,5,0.0
+Edgeward,Normal Load,1000,6,0.0
+Edgeward,Normal Load,1000,7,0.0
+Edgeward,Normal Load,1000,8,0.0
+Edgeward,Normal Load,1000,9,0.0
+Edgeward,Normal Load,1000,10,0.0
+Edgeward,Burst Load,100,1,86.712
+Edgeward,Burst Load,100,2,86.741
+Edgeward,Burst Load,100,3,87.54
+Edgeward,Burst Load,100,4,86.712
+Edgeward,Burst Load,100,5,86.741
+Edgeward,Burst Load,100,6,87.54
+Edgeward,Burst Load,100,7,86.712
+Edgeward,Burst Load,100,8,86.741
+Edgeward,Burst Load,100,9,87.54
+Edgeward,Burst Load,100,10,86.712
+Edgeward,Burst Load,300,1,92.905
+Edgeward,Burst Load,300,2,92.938
+Edgeward,Burst Load,300,3,92.926
+Edgeward,Burst Load,300,4,92.899
+Edgeward,Burst Load,300,5,92.945
+Edgeward,Burst Load,300,6,92.919
+Edgeward,Burst Load,300,7,92.901
+Edgeward,Burst Load,300,8,92.944
+Edgeward,Burst Load,300,9,92.915
+Edgeward,Burst Load,300,10,92.894
+Edgeward,Burst Load,500,1,86.719
+Edgeward,Burst Load,500,2,86.563
+Edgeward,Burst Load,500,3,86.719
+Edgeward,Burst Load,500,4,86.719
+Edgeward,Burst Load,500,5,86.563
+Edgeward,Burst Load,500,6,86.719
+Edgeward,Burst Load,500,7,86.719
+Edgeward,Burst Load,500,8,86.563
+Edgeward,Burst Load,500,9,86.719
+Edgeward,Burst Load,500,10,86.719
+Edgeward,Burst Load,1000,1,83.849
+Edgeward,Burst Load,1000,2,83.851
+Edgeward,Burst Load,1000,3,83.964
+Edgeward,Burst Load,1000,4,83.849
+Edgeward,Burst Load,1000,5,83.851
+Edgeward,Burst Load,1000,6,83.964
+Edgeward,Burst Load,1000,7,83.849
+Edgeward,Burst Load,1000,8,83.851
+Edgeward,Burst Load,1000,9,83.964
+Edgeward,Burst Load,1000,10,83.849
+Edgeward,Churn,100,1,85.576
+Edgeward,Churn,100,2,100.0
+Edgeward,Churn,100,3,74.716
+Edgeward,Churn,100,4,85.578
+Edgeward,Churn,100,5,100.0
+Edgeward,Churn,100,6,74.71
+Edgeward,Churn,100,7,85.576
+Edgeward,Churn,100,8,100.0
+Edgeward,Churn,100,9,74.719
+Edgeward,Churn,100,10,85.576
+Edgeward,Churn,300,1,0.0
+Edgeward,Churn,300,2,0.0
+Edgeward,Churn,300,3,0.0
+Edgeward,Churn,300,4,0.0
+Edgeward,Churn,300,5,0.0
+Edgeward,Churn,300,6,0.0
+Edgeward,Churn,300,7,0.0
+Edgeward,Churn,300,8,0.0
+Edgeward,Churn,300,9,0.0
+Edgeward,Churn,300,10,0.0
+Edgeward,Churn,500,1,0.0
+Edgeward,Churn,500,2,0.0
+Edgeward,Churn,500,3,0.0
+Edgeward,Churn,500,4,0.0
+Edgeward,Churn,500,5,0.0
+Edgeward,Churn,500,6,0.0
+Edgeward,Churn,500,7,0.0
+Edgeward,Churn,500,8,0.0
+Edgeward,Churn,500,9,0.0
+Edgeward,Churn,500,10,0.0
+Edgeward,Churn,1000,1,0.0
+Edgeward,Churn,1000,2,0.0
+Edgeward,Churn,1000,3,0.0
+Edgeward,Churn,1000,4,0.0
+Edgeward,Churn,1000,5,0.0
+Edgeward,Churn,1000,6,0.0
+Edgeward,Churn,1000,7,0.0
+Edgeward,Churn,1000,8,0.0
+Edgeward,Churn,1000,9,0.0
+Edgeward,Churn,1000,10,0.0

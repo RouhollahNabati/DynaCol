@@ -1,0 +1,97 @@
+metric,scenario,comparison,test,p_value,p_holm,effect_size,significant,significant_holm
+P95 latency (ms),100 nodes,DynaCol/DCBO vs FogPlan-MinCost,Mann-Whitney U,0.13057,0.29721,-0.4,No,No
+P95 latency (ms),100 nodes,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-2.436,Yes,Yes
+P95 latency (ms),100 nodes,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-2.436,Yes,Yes
+P95 latency (ms),100 nodes,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-2.436,Yes,Yes
+P95 latency (ms),100 nodes,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-2.436,Yes,Yes
+P95 latency (ms),100 nodes,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-29.048,Yes,Yes
+P95 latency (ms),300 nodes,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-113.204,Yes,Yes
+P95 latency (ms),300 nodes,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-224.555,Yes,Yes
+P95 latency (ms),300 nodes,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-224.555,Yes,Yes
+P95 latency (ms),300 nodes,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-224.555,Yes,Yes
+P95 latency (ms),300 nodes,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-224.555,Yes,Yes
+P95 latency (ms),300 nodes,DynaCol/DCBO vs Edgeward,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+P95 latency (ms),500 nodes,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-385.673,Yes,Yes
+P95 latency (ms),500 nodes,DynaCol/DCBO vs Static-DCBO,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+P95 latency (ms),500 nodes,DynaCol/DCBO vs Greedy-Nearest,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+P95 latency (ms),500 nodes,DynaCol/DCBO vs Tavousi-Fuzzy,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+P95 latency (ms),500 nodes,DynaCol/DCBO vs Dogani-TwoTier,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+P95 latency (ms),500 nodes,DynaCol/DCBO vs Edgeward,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+P95 latency (ms),1000 nodes,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-2996.778,Yes,Yes
+P95 latency (ms),1000 nodes,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-1745.788,Yes,Yes
+P95 latency (ms),1000 nodes,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-1745.788,Yes,Yes
+P95 latency (ms),1000 nodes,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-1745.788,Yes,Yes
+P95 latency (ms),1000 nodes,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-1745.788,Yes,Yes
+P95 latency (ms),1000 nodes,DynaCol/DCBO vs Edgeward,Mann-Whitney U,0.000157,0.002198,-1.0,Yes,Yes
+SLA violation (%),Normal Load @ 100,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-11.477,Yes,Yes
+SLA violation (%),Normal Load @ 100,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-2.51,Yes,Yes
+SLA violation (%),Normal Load @ 100,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-2.51,Yes,Yes
+SLA violation (%),Normal Load @ 100,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-2.51,Yes,Yes
+SLA violation (%),Normal Load @ 100,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-2.51,Yes,Yes
+SLA violation (%),Normal Load @ 100,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-8.889,Yes,Yes
+SLA violation (%),Burst Load @ 100,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-16.445,Yes,Yes
+SLA violation (%),Burst Load @ 100,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-2.537,Yes,Yes
+SLA violation (%),Burst Load @ 100,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-2.426,Yes,Yes
+SLA violation (%),Burst Load @ 100,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-2.537,Yes,Yes
+SLA violation (%),Burst Load @ 100,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-2.537,Yes,Yes
+SLA violation (%),Burst Load @ 100,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-42.671,Yes,Yes
+SLA violation (%),Churn @ 100,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-15.906,Yes,Yes
+SLA violation (%),Churn @ 100,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-2.432,Yes,Yes
+SLA violation (%),Churn @ 100,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-2.543,Yes,Yes
+SLA violation (%),Churn @ 100,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-2.543,Yes,Yes
+SLA violation (%),Churn @ 100,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-2.432,Yes,Yes
+SLA violation (%),Churn @ 100,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-9.532,Yes,Yes
+SLA violation (%),Normal Load @ 300,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-28.163,Yes,Yes
+SLA violation (%),Normal Load @ 300,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-20.298,Yes,Yes
+SLA violation (%),Normal Load @ 300,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-20.298,Yes,Yes
+SLA violation (%),Normal Load @ 300,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-20.298,Yes,Yes
+SLA violation (%),Normal Load @ 300,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-20.298,Yes,Yes
+SLA violation (%),Normal Load @ 300,DynaCol/DCBO vs Edgeward,Welch t-test,0.049535,0.29721,0.878,Yes,No
+SLA violation (%),Burst Load @ 300,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-26.024,Yes,Yes
+SLA violation (%),Burst Load @ 300,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-18.744,Yes,Yes
+SLA violation (%),Burst Load @ 300,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-19.081,Yes,Yes
+SLA violation (%),Burst Load @ 300,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-19.081,Yes,Yes
+SLA violation (%),Burst Load @ 300,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-19.081,Yes,Yes
+SLA violation (%),Burst Load @ 300,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-105.053,Yes,Yes
+SLA violation (%),Churn @ 300,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-27.603,Yes,Yes
+SLA violation (%),Churn @ 300,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-19.921,Yes,Yes
+SLA violation (%),Churn @ 300,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-20.295,Yes,Yes
+SLA violation (%),Churn @ 300,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-20.295,Yes,Yes
+SLA violation (%),Churn @ 300,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-19.921,Yes,Yes
+SLA violation (%),Churn @ 300,DynaCol/DCBO vs Edgeward,Welch t-test,0.049535,0.29721,0.878,Yes,No
+SLA violation (%),Normal Load @ 500,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-36.606,Yes,Yes
+SLA violation (%),Normal Load @ 500,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-35.352,Yes,Yes
+SLA violation (%),Normal Load @ 500,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-35.352,Yes,Yes
+SLA violation (%),Normal Load @ 500,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-35.352,Yes,Yes
+SLA violation (%),Normal Load @ 500,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-35.352,Yes,Yes
+SLA violation (%),Normal Load @ 500,DynaCol/DCBO vs Edgeward,Welch t-test,0.014306,0.100142,1.095,Yes,No
+SLA violation (%),Burst Load @ 500,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-39.062,Yes,Yes
+SLA violation (%),Burst Load @ 500,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-38.484,Yes,Yes
+SLA violation (%),Burst Load @ 500,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-38.484,Yes,Yes
+SLA violation (%),Burst Load @ 500,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-38.484,Yes,Yes
+SLA violation (%),Burst Load @ 500,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-38.484,Yes,Yes
+SLA violation (%),Burst Load @ 500,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-177.5,Yes,Yes
+SLA violation (%),Churn @ 500,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-38.641,Yes,Yes
+SLA violation (%),Churn @ 500,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-38.074,Yes,Yes
+SLA violation (%),Churn @ 500,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-38.088,Yes,Yes
+SLA violation (%),Churn @ 500,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-38.088,Yes,Yes
+SLA violation (%),Churn @ 500,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-38.088,Yes,Yes
+SLA violation (%),Churn @ 500,DynaCol/DCBO vs Edgeward,Welch t-test,0.049535,0.29721,0.878,Yes,No
+SLA violation (%),Normal Load @ 1000,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-69.365,Yes,Yes
+SLA violation (%),Normal Load @ 1000,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-68.566,Yes,Yes
+SLA violation (%),Normal Load @ 1000,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-68.566,Yes,Yes
+SLA violation (%),Normal Load @ 1000,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-68.566,Yes,Yes
+SLA violation (%),Normal Load @ 1000,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-68.566,Yes,Yes
+SLA violation (%),Normal Load @ 1000,DynaCol/DCBO vs Edgeward,Welch t-test,0.049535,0.29721,0.878,Yes,No
+SLA violation (%),Burst Load @ 1000,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-64.74,Yes,Yes
+SLA violation (%),Burst Load @ 1000,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-64.978,Yes,Yes
+SLA violation (%),Burst Load @ 1000,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-64.978,Yes,Yes
+SLA violation (%),Burst Load @ 1000,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-64.978,Yes,Yes
+SLA violation (%),Burst Load @ 1000,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-64.978,Yes,Yes
+SLA violation (%),Burst Load @ 1000,DynaCol/DCBO vs Edgeward,Welch t-test,0.0,0.0,-315.82,Yes,Yes
+SLA violation (%),Churn @ 1000,DynaCol/DCBO vs FogPlan-MinCost,Welch t-test,0.0,0.0,-68.954,Yes,Yes
+SLA violation (%),Churn @ 1000,DynaCol/DCBO vs Static-DCBO,Welch t-test,0.0,0.0,-64.63,Yes,Yes
+SLA violation (%),Churn @ 1000,DynaCol/DCBO vs Greedy-Nearest,Welch t-test,0.0,0.0,-68.533,Yes,Yes
+SLA violation (%),Churn @ 1000,DynaCol/DCBO vs Tavousi-Fuzzy,Welch t-test,0.0,0.0,-68.528,Yes,Yes
+SLA violation (%),Churn @ 1000,DynaCol/DCBO vs Dogani-TwoTier,Welch t-test,0.0,0.0,-68.533,Yes,Yes
+SLA violation (%),Churn @ 1000,DynaCol/DCBO vs Edgeward,Welch t-test,0.049535,0.29721,0.878,Yes,No

@@ -1,0 +1,41 @@
+variant,trial,p95_ms,sla_burst_pct
+Full DCBO,1,7.22,0.0
+Full DCBO,2,7.22,0.0
+Full DCBO,3,7.22,1.414
+Full DCBO,4,7.22,0.0
+Full DCBO,5,7.22,0.0
+Full DCBO,6,7.22,0.0
+Full DCBO,7,7.22,1.414
+Full DCBO,8,7.22,0.0
+Full DCBO,9,7.22,0.0
+Full DCBO,10,7.22,1.414
+No-Handover,1,503.22,0.0
+No-Handover,2,7.22,0.0
+No-Handover,3,7.22,30.519
+No-Handover,4,503.22,0.0
+No-Handover,5,7.22,0.0
+No-Handover,6,7.22,30.519
+No-Handover,7,503.22,0.0
+No-Handover,8,7.22,0.0
+No-Handover,9,7.22,30.519
+No-Handover,10,503.22,0.0
+CRT-only,1,7.22,0.0
+CRT-only,2,7.22,1.414
+CRT-only,3,7.22,0.0
+CRT-only,4,7.22,0.0
+CRT-only,5,7.22,1.414
+CRT-only,6,7.22,0.0
+CRT-only,7,7.22,0.0
+CRT-only,8,7.22,1.414
+CRT-only,9,7.22,0.0
+CRT-only,10,7.22,0.0
+GRT-only,1,1295.2,100.0
+GRT-only,2,1297.05,100.0
+GRT-only,3,1297.05,100.0
+GRT-only,4,1295.2,100.0
+GRT-only,5,1297.05,100.0
+GRT-only,6,1297.05,100.0
+GRT-only,7,1295.2,100.0
+GRT-only,8,1297.05,100.0
+GRT-only,9,1297.05,100.0
+GRT-only,10,1295.2,100.0

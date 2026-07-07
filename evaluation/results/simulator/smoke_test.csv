@@ -1,0 +1,3 @@
+method,policy,nodes,scenario,trial,seed,p95_ms,mean_loop_ms,sla_pct,overhead_norm,control_messages,colonies,variant
+DynaCol/DCBO,DYNACOL_DCBO,100,Normal Load,1,20990001,157.220,21.414,7.487,75126.667,14313,7,
+Greedy-Nearest,GREEDY_NEAREST,100,Burst Load,1,20990002,346.220,51.875,20.124,0.000,0,1,

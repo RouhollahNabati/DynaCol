@@ -1,0 +1,5 @@
+variant,p95_mean,p95_ci,sla_mean,sla_ci
+Full DCBO,7.22,0.0,0.4242,0.4886
+No-Handover,205.62,183.214,9.1557,10.5451
+CRT-only,7.22,0.0,0.4242,0.4886
+GRT-only,1296.31,0.6834,100.0,0.0

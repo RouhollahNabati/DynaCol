@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\caption{SLA deadline sensitivity at $N=500$ (mean SLA violation \%; scale multiplies $D_s$ from Table~\ref{tab:workload_spec}; $n=5$ per cell).}
+\label{tab:sla_deadline}
+\scriptsize
+\renewcommand{\arraystretch}{1.08}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lllcc@{}}
+\toprule
+\textbf{Method} & \textbf{Scale} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\
+\midrule
+DynaCol/DCBO & 100\% & Burst Load & 0.57 & 5 \\
+DynaCol/DCBO & 100\% & Churn & 0.59 & 5 \\
+DynaCol/DCBO & 100\% & Normal Load & 0.57 & 5 \\
+DynaCol/DCBO & 120\% & Burst Load & 0.54 & 5 \\
+DynaCol/DCBO & 120\% & Churn & 0.57 & 5 \\
+DynaCol/DCBO & 120\% & Normal Load & 0.54 & 5 \\
+DynaCol/DCBO & 80\% & Burst Load & 0.29 & 5 \\
+DynaCol/DCBO & 80\% & Churn & 0.61 & 5 \\
+DynaCol/DCBO & 80\% & Normal Load & 0.59 & 5 \\
+Edgeward & 100\% & Burst Load & 86.66 & 5 \\
+Edgeward & 100\% & Churn & 0.00 & 5 \\
+Edgeward & 100\% & Normal Load & 0.00 & 5 \\
+Edgeward & 120\% & Burst Load & 85.85 & 5 \\
+Edgeward & 120\% & Churn & 0.00 & 5 \\
+Edgeward & 120\% & Normal Load & 0.00 & 5 \\
+Edgeward & 80\% & Burst Load & 87.77 & 5 \\
+Edgeward & 80\% & Churn & 0.00 & 5 \\
+Edgeward & 80\% & Normal Load & 0.00 & 5 \\
+FogPlan-MinCost & 100\% & Burst Load & 20.84 & 5 \\
+FogPlan-MinCost & 100\% & Churn & 21.17 & 5 \\
+FogPlan-MinCost & 100\% & Normal Load & 20.81 & 5 \\
+FogPlan-MinCost & 120\% & Burst Load & 20.35 & 5 \\
+FogPlan-MinCost & 120\% & Churn & 20.75 & 5 \\
+FogPlan-MinCost & 120\% & Normal Load & 20.13 & 5 \\
+FogPlan-MinCost & 80\% & Burst Load & 21.26 & 5 \\
+FogPlan-MinCost & 80\% & Churn & 21.72 & 5 \\
+FogPlan-MinCost & 80\% & Normal Load & 21.46 & 5 \\
+\bottomrule
+\end{tabular}}
+\end{table}

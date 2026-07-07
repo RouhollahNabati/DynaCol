@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440">
+  <rect width="100%" height="100%" fill="#FAFAFA"/>
+  <text x="380.0" y="28" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111">Latency vs. control traffic trade-off</text>
+  <line x1="78.00" y1="52.00" x2="78.00" y2="368.00" stroke="#64748B" stroke-width="1.50"/>
+  <line x1="78.00" y1="368.00" x2="732.00" y2="368.00" stroke="#64748B" stroke-width="1.50"/>
+  <text x="405.00" y="410.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#000">Control messages (mean)</text>
+  <text x="22.00" y="210.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#000">P95 latency (ms)</text>
+  <text x="187.00" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">0</text>
+  <line x1="187.00" y1="368.00" x2="187.00" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="405.00" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">…</text>
+  <line x1="405.00" y1="368.00" x2="405.00" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="623.00" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#475569">5168</text>
+  <line x1="623.00" y1="368.00" x2="623.00" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <line x1="74.00" y1="368.57" x2="78.00" y2="368.57" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="372.57" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">5</text>
+  <line x1="78.00" y1="368.57" x2="732.00" y2="368.57" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="331.63" x2="78.00" y2="331.63" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="335.63" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">10</text>
+  <line x1="78.00" y1="331.63" x2="732.00" y2="331.63" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="294.68" x2="78.00" y2="294.68" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="298.68" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">20</text>
+  <line x1="78.00" y1="294.68" x2="732.00" y2="294.68" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="245.84" x2="78.00" y2="245.84" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="249.84" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">50</text>
+  <line x1="78.00" y1="245.84" x2="732.00" y2="245.84" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="208.90" x2="78.00" y2="208.90" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="212.90" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">100</text>
+  <line x1="78.00" y1="208.90" x2="732.00" y2="208.90" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="171.95" x2="78.00" y2="171.95" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="175.95" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">200</text>
+  <line x1="78.00" y1="171.95" x2="732.00" y2="171.95" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="123.11" x2="78.00" y2="123.11" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="127.11" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">500</text>
+  <line x1="78.00" y1="123.11" x2="732.00" y2="123.11" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="86.16" x2="78.00" y2="86.16" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="90.16" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">1000</text>
+  <line x1="78.00" y1="86.16" x2="732.00" y2="86.16" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="74.00" y1="49.22" x2="78.00" y2="49.22" stroke="#64748B" stroke-width="1.00"/>
+  <text x="70.00" y="53.22" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="end" fill="#475569">2000</text>
+  <line x1="78.00" y1="49.22" x2="732.00" y2="49.22" stroke="#CBD5E1" stroke-width="0.70" stroke-dasharray="4,4"/>
+  <line x1="328.02" y1="368.00" x2="328.02" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="328.02" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">1</text>
+  <line x1="307.75" y1="368.00" x2="307.75" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="307.75" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">2</text>
+  <line x1="280.96" y1="368.00" x2="280.96" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="280.96" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">5</text>
+  <line x1="260.69" y1="368.00" x2="260.69" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="260.69" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">10</text>
+  <line x1="240.42" y1="368.00" x2="240.42" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="240.42" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">20</text>
+  <line x1="213.63" y1="368.00" x2="213.63" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="213.63" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">50</text>
+  <line x1="193.36" y1="368.00" x2="193.36" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="193.36" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">100</text>
+  <line x1="173.09" y1="368.00" x2="173.09" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="173.09" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">200</text>
+  <line x1="146.30" y1="368.00" x2="146.30" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="146.30" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">500</text>
+  <line x1="126.03" y1="368.00" x2="126.03" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="126.03" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">1000</text>
+  <line x1="105.76" y1="368.00" x2="105.76" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="105.76" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">2000</text>
+  <line x1="78.97" y1="368.00" x2="78.97" y2="372.00" stroke="#64748B" stroke-width="1.00"/>
+  <text x="78.97" y="384.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#475569">5000</text>
+  <circle cx="160.55" cy="156.25" r="5.00" fill="#2563EB" stroke="#fff" stroke-width="1.00"/>
+  <text x="168.55" y="150.25" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#2563EB">N=100</text>
+  <circle cx="129.16" cy="348.99" r="5.00" fill="#2563EB" stroke="#fff" stroke-width="1.00"/>
+  <text x="137.16" y="342.99" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#2563EB">N=300</text>
+  <circle cx="108.46" cy="348.99" r="5.00" fill="#2563EB" stroke="#fff" stroke-width="1.00"/>
+  <text x="116.46" y="342.99" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#2563EB">N=500</text>
+  <circle cx="87.84" cy="348.99" r="5.00" fill="#2563EB" stroke="#fff" stroke-width="1.00"/>
+  <text x="95.84" y="342.99" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#2563EB">N=1000</text>
+  <polyline points="160.55,156.25 129.16,348.99 108.46,348.99 87.84,348.99" fill="none" stroke="#2563EB" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="201.39" cy="156.68" r="5.00" fill="#EA580C" stroke="#fff" stroke-width="1.00"/>
+  <text x="209.39" y="150.68" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#EA580C">N=100</text>
+  <circle cx="168.25" cy="112.29" r="5.00" fill="#EA580C" stroke="#fff" stroke-width="1.00"/>
+  <text x="176.25" y="106.29" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#EA580C">N=300</text>
+  <circle cx="153.12" cy="115.72" r="5.00" fill="#EA580C" stroke="#fff" stroke-width="1.00"/>
+  <text x="161.12" y="109.72" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#EA580C">N=500</text>
+  <circle cx="132.70" cy="106.93" r="5.00" fill="#EA580C" stroke="#fff" stroke-width="1.00"/>
+  <text x="140.70" y="100.93" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#EA580C">N=1000</text>
+  <polyline points="201.39,156.68 168.25,112.29 153.12,115.72 132.70,106.93" fill="none" stroke="#EA580C" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="201.39" cy="145.22" r="5.00" fill="#0F766E" stroke="#fff" stroke-width="1.00"/>
+  <text x="209.39" y="139.22" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#0F766E">N=100</text>
+  <circle cx="168.25" cy="136.26" r="5.00" fill="#0F766E" stroke="#fff" stroke-width="1.00"/>
+  <text x="176.25" y="130.26" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#0F766E">N=300</text>
+  <circle cx="141.26" cy="127.88" r="5.00" fill="#0F766E" stroke="#fff" stroke-width="1.00"/>
+  <text x="149.26" y="121.88" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#0F766E">N=500</text>
+  <circle cx="120.85" cy="113.08" r="5.00" fill="#0F766E" stroke="#fff" stroke-width="1.00"/>
+  <text x="128.85" y="107.08" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#0F766E">N=1000</text>
+  <polyline points="201.39,145.22 168.25,136.26 141.26,127.88 120.85,113.08" fill="none" stroke="#0F766E" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="201.39" cy="145.22" r="5.00" fill="#16A34A" stroke="#fff" stroke-width="1.00"/>
+  <text x="209.39" y="139.22" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#16A34A">N=100</text>
+  <circle cx="168.25" cy="136.26" r="5.00" fill="#16A34A" stroke="#fff" stroke-width="1.00"/>
+  <text x="176.25" y="130.26" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#16A34A">N=300</text>
+  <circle cx="153.12" cy="127.88" r="5.00" fill="#16A34A" stroke="#fff" stroke-width="1.00"/>
+  <text x="161.12" y="121.88" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#16A34A">N=500</text>
+  <circle cx="132.70" cy="113.08" r="5.00" fill="#16A34A" stroke="#fff" stroke-width="1.00"/>
+  <text x="140.70" y="107.08" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#16A34A">N=1000</text>
+  <polyline points="201.39,145.22 168.25,136.26 153.12,127.88 132.70,113.08" fill="none" stroke="#16A34A" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="201.39" cy="145.22" r="5.00" fill="#DC2626" stroke="#fff" stroke-width="1.00"/>
+  <text x="209.39" y="139.22" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#DC2626">N=100</text>
+  <circle cx="168.25" cy="136.26" r="5.00" fill="#DC2626" stroke="#fff" stroke-width="1.00"/>
+  <text x="176.25" y="130.26" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#DC2626">N=300</text>
+  <circle cx="153.12" cy="127.88" r="5.00" fill="#DC2626" stroke="#fff" stroke-width="1.00"/>
+  <text x="161.12" y="121.88" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#DC2626">N=500</text>
+  <circle cx="132.70" cy="113.08" r="5.00" fill="#DC2626" stroke="#fff" stroke-width="1.00"/>
+  <text x="140.70" y="107.08" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#DC2626">N=1000</text>
+  <polyline points="201.39,145.22 168.25,136.26 153.12,127.88 132.70,113.08" fill="none" stroke="#DC2626" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="201.39" cy="145.22" r="5.00" fill="#475569" stroke="#fff" stroke-width="1.00"/>
+  <text x="209.39" y="139.22" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#475569">N=100</text>
+  <circle cx="168.25" cy="136.26" r="5.00" fill="#475569" stroke="#fff" stroke-width="1.00"/>
+  <text x="176.25" y="130.26" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#475569">N=300</text>
+  <circle cx="153.12" cy="127.88" r="5.00" fill="#475569" stroke="#fff" stroke-width="1.00"/>
+  <text x="161.12" y="121.88" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#475569">N=500</text>
+  <circle cx="132.70" cy="113.08" r="5.00" fill="#475569" stroke="#fff" stroke-width="1.00"/>
+  <text x="140.70" y="107.08" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#475569">N=1000</text>
+  <polyline points="201.39,145.22 168.25,136.26 153.12,127.88 132.70,113.08" fill="none" stroke="#475569" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="732.00" cy="342.07" r="5.00" fill="#7C3AED" stroke="#fff" stroke-width="1.00"/>
+  <text x="740.00" y="336.07" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#7C3AED">N=300</text>
+  <circle cx="732.00" cy="342.07" r="5.00" fill="#7C3AED" stroke="#fff" stroke-width="1.00"/>
+  <text x="740.00" y="336.07" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#7C3AED">N=500</text>
+  <circle cx="732.00" cy="342.07" r="5.00" fill="#7C3AED" stroke="#fff" stroke-width="1.00"/>
+  <text x="740.00" y="336.07" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#7C3AED">N=1000</text>
+  <circle cx="732.00" cy="69.93" r="5.00" fill="#7C3AED" stroke="#fff" stroke-width="1.00"/>
+  <text x="740.00" y="63.93" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" font-weight="normal" text-anchor="start" fill="#7C3AED">N=100</text>
+  <polyline points="732.00,342.07 732.00,342.07 732.00,342.07 732.00,69.93" fill="none" stroke="#7C3AED" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="553.00" y="46.00" width="134.00" height="134.00" fill="white" opacity="0.94" rx="2.00"/>
+  <rect x="553.00" y="46.00" width="134.00" height="134.00" fill="none" opacity="1.00" rx="0.00"/>
+  <line x1="553.00" y1="46.00" x2="687.00" y2="46.00" stroke="#CBD5E1" stroke-width="0.80"/>
+  <line x1="553.00" y1="180.00" x2="687.00" y2="180.00" stroke="#CBD5E1" stroke-width="0.80"/>
+  <line x1="553.00" y1="46.00" x2="553.00" y2="180.00" stroke="#CBD5E1" stroke-width="0.80"/>
+  <line x1="687.00" y1="46.00" x2="687.00" y2="180.00" stroke="#CBD5E1" stroke-width="0.80"/>
+  <rect x="557.00" y="49.00" width="14.00" height="14.00" fill="#2563EB" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="61.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">DynaCol/DCBO</text>
+  <rect x="557.00" y="67.00" width="14.00" height="14.00" fill="#EA580C" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="79.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">FogPlan-MinCost</text>
+  <rect x="557.00" y="85.00" width="14.00" height="14.00" fill="#0F766E" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="97.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">Static-DCBO</text>
+  <rect x="557.00" y="103.00" width="14.00" height="14.00" fill="#16A34A" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="115.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">Greedy-Nearest</text>
+  <rect x="557.00" y="121.00" width="14.00" height="14.00" fill="#DC2626" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="133.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">Tavousi-Fuzzy</text>
+  <rect x="557.00" y="139.00" width="14.00" height="14.00" fill="#475569" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="151.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">Dogani-TwoTier</text>
+  <rect x="557.00" y="157.00" width="14.00" height="14.00" fill="#7C3AED" opacity="1.00" rx="2.00"/>
+  <text x="577.00" y="169.00" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#475569">Edgeward</text>
+</svg>
