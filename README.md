@@ -1,5 +1,7 @@
 # DynaCol — Dynamic Colony-Based Optimizer for Fog Computing
 
+# By R. nabati(rnabati@gmail.com) 1405-04-16
+
 DynaCol is a cold-start framework for self-organizing fog colonies and online
 service placement. The core placement engine is **DCBO** (Dynamic Colony-Based
 Optimizer), built on an instrumented **iFogSim2** simulator.
