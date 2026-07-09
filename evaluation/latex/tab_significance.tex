@@ -2,10 +2,8 @@
 \centering
 \caption{Holm-adjusted $p$ for pairwise P95 tests versus DynaCol/DCBO ($\alpha=0.05$, $n=10$ per group; \textsuperscript{ns} = not significant). Full results incl.\ test statistics: \texttt{significance\_tests.csv}.}
 \label{tab:significance_p95}
-\scriptsize
-\renewcommand{\arraystretch}{1.10}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{@{}lcccc@{}}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}@{}lcccc@{}@{}}
 \toprule
 \textbf{Comparison vs DynaCol/DCBO} & \textbf{$N=100$} & \textbf{$N=300$} & \textbf{$N=500$} & \textbf{$N=1000$} \\
 \midrule
@@ -16,15 +14,14 @@ Tavousi-Fuzzy & $<0.001$ & $<0.001$ & $0.002$ & $<0.001$ \\
 Dogani-TwoTier & $<0.001$ & $<0.001$ & $0.002$ & $<0.001$ \\
 Edgeward & $<0.001$ & $0.002$ & $0.002$ & $0.002$ \\
 \bottomrule
-\end{tabular}}
+\end{tabular*}
 \end{table}
 
 \begin{table*}[!t]
 \centering
 \caption{Holm-adjusted $p$ for pairwise SLA tests versus DynaCol/DCBO by scenario ($\alpha=0.05$, $n=10$ per group; \textsuperscript{ns} = not significant).}
 \label{tab:significance}
-\scriptsize
-\renewcommand{\arraystretch}{1.10}
+\fgcsTablePage
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llcccc@{}}
 \toprule
 \textbf{Comparison vs DynaCol/DCBO} & \textbf{Scenario} & \textbf{$N=100$} & \textbf{$N=300$} & \textbf{$N=500$} & \textbf{$N=1000$} \\

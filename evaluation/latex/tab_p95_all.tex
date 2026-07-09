@@ -2,10 +2,8 @@
 \centering
 \caption{P95 latency (ms, mean $\pm$ 95\% CI, $n=10$) under normal load across fog scale.}
 \label{tab:p95_all}
-\scriptsize
-\renewcommand{\arraystretch}{1.10}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{lcccc}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
 \toprule
 \textbf{Method} & \textbf{$N=100$} & \textbf{$N=300$} & \textbf{$N=500$} & \textbf{$N=1000$} \\
 \midrule
@@ -14,5 +12,5 @@
 \textcolor{dynacolTeal}{\textbf{Static-DCBO}} & 330.2 $\pm$ 7.4 & 390.7 $\pm$ 1.7 & 457.2 $\pm$ 0.0 & 603.5 $\pm$ 0.3 \\
 \textcolor{dynacolPurple}{\textbf{Edgeward}} & 1355.9 $\pm$ 28.8 & 8.2 $\pm$ 0.0 & 8.2 $\pm$ 0.0 & 8.2 $\pm$ 0.0 \\
 \bottomrule
-\end{tabular}}
+\end{tabular*}
 \end{table}

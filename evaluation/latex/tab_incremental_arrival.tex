@@ -1,10 +1,9 @@
-\begin{table}[t]
+\begin{table}[!t]
 \centering
 \caption{Incremental arrival under active load (mean SLA violation \%; 50\% bootstrap + 50\% at $t=0.4\times$ horizon).}
 \label{tab:incremental_arrival}
-\scriptsize
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{llrcc}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}llrcc@{}}
 \toprule
 \textbf{Method} & \textbf{Scenario} & \textbf{$N$} & \textbf{SLA (\%)} & \textbf{$n$} \\
 \midrule
@@ -21,5 +20,5 @@ Static-DCBO & Mobility & 100 & 59.21 & 5 \\
 Static-DCBO & Normal & 100 & 58.28 & 5 \\
 Static-DCBO & Normal & 300 & 31.97 & 5 \\
 \bottomrule
-\end{tabular}}
+\end{tabular*}
 \end{table}

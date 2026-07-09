@@ -34,6 +34,7 @@ evaluation/results/simulator/trials_gahc.csv
 
 # Internal-only helper scripts
 scripts/package-cluster-computing-submission.sh
+scripts/package-fgcs-submission.sh
 scripts/compile-paper.sh
 scripts/eval-monitor.sh
 scripts/eval-status.sh
