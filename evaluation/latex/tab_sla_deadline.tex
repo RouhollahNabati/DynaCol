@@ -2,10 +2,8 @@
 \centering
 \caption{SLA deadline sensitivity at $N=500$ (mean SLA violation \%; scale multiplies $D_s$ from Table~\ref{tab:workload_spec}; $n=5$ per cell).}
 \label{tab:sla_deadline}
-\scriptsize
-\renewcommand{\arraystretch}{1.08}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{@{}lllcc@{}}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}@{}lllcc@{}@{}}
 \toprule
 \textbf{Method} & \textbf{Scale} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\
 \midrule
@@ -37,5 +35,5 @@ FogPlan-MinCost & 80\% & Burst Load & 21.26 & 5 \\
 FogPlan-MinCost & 80\% & Churn & 21.72 & 5 \\
 FogPlan-MinCost & 80\% & Normal Load & 21.46 & 5 \\
 \bottomrule
-\end{tabular}}
+\end{tabular*}
 \end{table}

@@ -21,9 +21,11 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
 from visual_theme import (
+    column_table_begin,
     method_bar_style,
     method_latex_label,
     method_line_style,
+    page_table_begin,
     table_open,
     table_preamble_lines,
     latex_style_tex,
@@ -364,12 +366,12 @@ def appendix_sensitivity_tex(sim_rows: List[dict]) -> str:
         key = (row["variant"], row["scenario"])
         by_key.setdefault(key, []).append(float(row["sla_pct"]))
     lines = [
-        r"\begin{table}[t]",
+        table_open(table_star=False),
         r"\centering",
         r"\caption{Parameter sensitivity at $N=500$ (mean SLA violation \%, $n=5$ per cell).}",
         r"\label{tab:sensitivity}",
-        r"\scriptsize",
-        r"\begin{tabular}{llcc}",
+    ] + table_preamble_lines() + [
+        column_table_begin("llcc"),
         r"\toprule",
         r"\textbf{Variant} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\",
         r"\midrule",
@@ -377,7 +379,7 @@ def appendix_sensitivity_tex(sim_rows: List[dict]) -> str:
     for (variant, scenario), vals in sorted(by_key.items()):
         s = summarize(vals)
         lines.append(f"{tex_escape(variant)} & {tex_escape(scenario)} & {s['mean']:.2f} & {len(vals)} \\\\")
-    lines += [r"\bottomrule", r"\end{tabular}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -395,10 +397,8 @@ def workload_spec_table_tex() -> str:
         r"\caption{Workload and SLA deadline parameters (shared by all compared policies). "
         r"$D_{\mathrm{base}}(N)=60+N/10$\,ms.}",
         r"\label{tab:workload_spec}",
-        r"\scriptsize",
-        r"\renewcommand{\arraystretch}{1.10}",
-        r"\resizebox{\columnwidth}{!}{%",
-        r"\begin{tabular}{@{}lllrrr@{}}",
+    ] + table_preamble_lines() + [
+        column_table_begin("@{}lllrrr@{}"),
         r"\toprule",
         r"\textbf{Scenario} & \textbf{Sensor period (ms)} & \textbf{Deadline} & "
         + " & ".join(rf"\textbf{{@ $N={n}$}}" for n in example_nodes) + r" \\",
@@ -413,7 +413,7 @@ def workload_spec_table_tex() -> str:
         )
     lines += [
         r"\bottomrule",
-        r"\end{tabular}}",
+        r"\end{tabular*}",
         r"\end{table}",
     ]
     return "\n".join(lines)
@@ -441,10 +441,8 @@ def appendix_sla_deadline_tex(sim_rows: List[dict]) -> str:
         r"\caption{SLA deadline sensitivity at $N=500$ (mean SLA violation \%; scale multiplies "
         r"$D_s$ from Table~\ref{tab:workload_spec}; $n=5$ per cell).}",
         r"\label{tab:sla_deadline}",
-        r"\scriptsize",
-        r"\renewcommand{\arraystretch}{1.08}",
-        r"\resizebox{\columnwidth}{!}{%",
-        r"\begin{tabular}{@{}lllcc@{}}",
+    ] + table_preamble_lines() + [
+        column_table_begin("@{}lllcc@{}"),
         r"\toprule",
         r"\textbf{Method} & \textbf{Scale} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\",
         r"\midrule",
@@ -456,7 +454,7 @@ def appendix_sla_deadline_tex(sim_rows: List[dict]) -> str:
             f"{tex_escape(method)} & {scale_label} & {tex_escape(scenario)} & "
             f"{s['mean']:.2f} & {len(vals)} \\\\"
         )
-    lines += [r"\bottomrule", r"\end{tabular}}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -495,15 +493,14 @@ def tab_edgeward_comparison_tex(
         (r"Small scale ($N=100$)", [100]),
     ]
     lines = [
-        r"\begin{table*}[!t]",
+        table_open(table_star=True),
         r"\centering",
         r"\caption{Scenario-specific SLA comparison: DynaCol/DCBO vs.\ Edgeward "
         r"(mean $\pm$ 95\% CI). At $N\geq300$, both methods reach $\approx$0\% on normal/churn "
         r"(Holm $p>0.05$); burst is the primary differentiator (Sig.\ = Holm-adjusted).}",
         r"\label{tab:edgeward_comparison}",
-        r"\scriptsize",
-        r"\renewcommand{\arraystretch}{1.10}",
-        r"\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccc@{}}",
+    ] + table_preamble_lines("page") + [
+        page_table_begin("llccc"),
         r"\toprule",
         r"\textbf{Method} & \textbf{$N$} & \textbf{Normal Load (\%)} & "
         r"\textbf{Burst Load (\%)} & \textbf{Churn (\%)} \\",
@@ -571,13 +568,12 @@ def appendix_incremental_tex(sim_rows: List[dict]) -> str:
         col_spec = "llcc"
         header = r"\textbf{Method} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\"
     lines = [
-        r"\begin{table}[t]",
+        table_open(table_star=False),
         r"\centering",
         f"\\caption{{{caption}}}",
         r"\label{tab:incremental_arrival}",
-        r"\scriptsize",
-        r"\resizebox{\columnwidth}{!}{%",
-        rf"\begin{{tabular}}{{{col_spec}}}",
+    ] + table_preamble_lines() + [
+        column_table_begin(col_spec),
         r"\toprule",
         header,
         r"\midrule",
@@ -599,7 +595,7 @@ def appendix_incremental_tex(sim_rows: List[dict]) -> str:
             lines.append(
                 f"{tex_escape(method)} & {tex_escape(short_scenario(scenario))} & {s['mean']:.2f} & {len(vals)} \\\\"
             )
-    lines += [r"\bottomrule", r"\end{tabular}}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -710,14 +706,12 @@ def appendix_sla_slope_tex(sim_rows: List[dict]) -> str:
         key = (row["method"], row["variant"], row["scenario"])
         by_key.setdefault(key, []).append(float(row["sla_pct"]))
     lines = [
-        r"\begin{table}[t]",
+        table_open(table_star=False),
         r"\centering",
         r"\caption{SLA deadline $N_\mathrm{slope}$ sensitivity at $N=500$ (mean SLA violation \%; $D_{\mathrm{base}}(N)=60+N\cdot s$; $n=5$ per cell).}",
         r"\label{tab:sla_slope}",
-        r"\scriptsize",
-        r"\renewcommand{\arraystretch}{1.08}",
-        r"\resizebox{\columnwidth}{!}{%",
-        r"\begin{tabular}{@{}lllcc@{}}",
+    ] + table_preamble_lines() + [
+        column_table_begin("@{}lllcc@{}"),
         r"\toprule",
         r"\textbf{Method} & \textbf{$N_\mathrm{slope}$} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\",
         r"\midrule",
@@ -728,7 +722,7 @@ def appendix_sla_slope_tex(sim_rows: List[dict]) -> str:
         lines.append(
             f"{tex_escape(method)} & {slope_label} & {tex_escape(scenario)} & {s['mean']:.2f} & {len(vals)} \\\\"
         )
-    lines += [r"\bottomrule", r"\end{tabular}}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -748,13 +742,13 @@ def appendix_offline_ga_tex(sim_rows: List[dict]) -> str:
     for row in rows:
         by_key.setdefault(row["scenario"], []).append(float(row["sla_pct"]))
     lines = [
-        r"\begin{table}[t]",
+        table_open(table_star=False),
         r"\centering",
         r"\caption{Offline generational GA on static geography colonies at $N=500$ (mean SLA violation \%; $n=10$ per scenario). "
         r"Compare with Static-DCBO (same overlay, DCBO placement) in Table~\ref{tab:sla_n500}.}",
         r"\label{tab:offline_ga}",
-        r"\scriptsize",
-        r"\begin{tabular}{lcc}",
+    ] + table_preamble_lines() + [
+        column_table_begin("lcc"),
         r"\toprule",
         r"\textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\",
         r"\midrule",
@@ -765,7 +759,7 @@ def appendix_offline_ga_tex(sim_rows: List[dict]) -> str:
             continue
         s = summarize(vals)
         lines.append(f"{tex_escape(scenario)} & {s['mean']:.2f} & {len(vals)} \\\\")
-    lines += [r"\bottomrule", r"\end{tabular}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -1729,8 +1723,7 @@ def sla_n500_tex(sla_summary: List[dict], scenarios: List[str], sla_node: int) -
         rf"\caption{{SLA violation rate (\%, mean $\pm$ 95\% CI, $n={NUM_TRIALS}$) at $N={sla_node}$ by stress scenario.}}",
         r"\label{tab:sla_n500}",
     ] + table_preamble_lines() + [
-        r"\resizebox{\columnwidth}{!}{%",
-        rf"\begin{{tabular}}{{{cols}}}",
+        column_table_begin(cols),
         r"\toprule",
         header + r" \\",
         r"\midrule",
@@ -1747,7 +1740,7 @@ def sla_n500_tex(sla_summary: List[dict], scenarios: List[str], sla_node: int) -
             else:
                 cells.append(f"{row['mean']:.2f} $\\pm$ {row['yerr']:.2f}")
         lines.append(" & ".join(cells) + r" \\")
-    lines += [r"\bottomrule", r"\end{tabular}}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -1813,8 +1806,17 @@ def comparison_main_tex(
     scenarios: List[str],
     methods: List[str] | None = None,
 ) -> str:
+    del oh_summary, scenarios  # wide summary table; overhead in figures
     methods = methods or METHODS_SCALABILITY
     burst_scenario = "Burst Load"
+    n_scale = len(node_counts)
+    col_spec = f"l {'c' * n_scale} {'c' * n_scale} cccc"
+    n_hdr = " & ".join(rf"$N={n}$" for n in node_counts)
+    p95_end = 1 + n_scale
+    burst_start = p95_end + 1
+    burst_end = p95_end + n_scale
+    n500_start = burst_end + 1
+    n500_end = burst_end + 4
 
     def burst_sla(method: str, nodes: int) -> Tuple[float, float]:
         row = next(
@@ -1826,58 +1828,68 @@ def comparison_main_tex(
             return 0.0, 0.0
         return float(row["mean"]), float(row["yerr"])
 
+    def p95_cell(method: str, nodes: int) -> str:
+        row = next((r for r in p95_summary if r["method"] == method and r["nodes"] == nodes), None)
+        if row is None:
+            return "---"
+        return f"{row['mean']:.1f} $\\pm$ {row['yplus']:.1f}"
+
+    def burst_cell(method: str, nodes: int) -> str:
+        sla_m, sla_ci = burst_sla(method, nodes)
+        if not (sla_m or sla_ci):
+            return "---"
+        return f"{sla_m:.2f} $\\pm$ {sla_ci:.2f}"
+
     lines = [
         table_open(table_star=True),
         r"\centering",
-        rf"\caption{{Comparison of all evaluated placement methods (mean $\pm$ 95\% CI, $n={NUM_TRIALS}$ trials per cell). "
-        rf"P95 latency under normal load; burst SLA violation (\%) at each $N$. "
-        r"Control messages count colony-formation and placement coordination traffic; "
-        r"energy and cost are per-trial means.}",
+        rf"\caption{{Summary of all evaluated placement methods (mean $\pm$ 95\% CI, $n={NUM_TRIALS}$ per cell). "
+        rf"P95 under normal load and burst SLA violation across fog scale; control messages, colony count, "
+        rf"energy, and cost at $N={sla_node}$. Normalized overhead is in Fig.~\ref{{fig:control_overhead_scale}}.}}",
         r"\label{tab:comparison_main}",
-    ] + table_preamble_lines() + [
-        r"\resizebox{\textwidth}{!}{%",
-        r"\begin{tabular}{@{}llrrrrrrr@{}}",
+    ] + table_preamble_lines("wide") + [
+        page_table_begin(col_spec),
         r"\toprule",
-        r"\textbf{Method} & \textbf{$N$} & \textbf{P95 (ms)} & \textbf{Burst SLA (\%)} & "
-        r"\textbf{Ctrl msgs} & \textbf{Colonies} & \textbf{Norm.\ OH} & \textbf{Energy (J/req)} & \textbf{Cost} \\",
+        rf"& \multicolumn{{{n_scale}}}{{c}}{{P95 (ms)}} "
+        rf"& \multicolumn{{{n_scale}}}{{c}}{{Burst SLA (\%)}} "
+        rf"& \multicolumn{{4}}{{c@{{}}}}{{@ $N={sla_node}$}} \\",
+        rf"\cmidrule(lr){{2-{p95_end}}}\cmidrule(lr){{{burst_start}-{burst_end}}}"
+        rf"\cmidrule(l){{{n500_start}-{n500_end}}}",
+        rf"\textbf{{Method}} & {n_hdr} & {n_hdr} "
+        r"& \textbf{Ctrl} & \textbf{Col.} & \textbf{En.} & \textbf{Cost} \\",
         r"\midrule",
     ]
     for method in methods:
-        for nodes in node_counts:
-            p95 = next((r for r in p95_summary if r["method"] == method and r["nodes"] == nodes), None)
-            oh = next((r for r in oh_summary if r["method"] == method and r["nodes"] == nodes), None)
-            ctrl_vals = ctrl_summary.get((method, nodes), [])
-            ctrl = summarize(ctrl_vals) if ctrl_vals else {"mean": 0.0, "ci95_half": 0.0}
-            col_vals = colony_summary.get((method, nodes), [])
-            col = summarize(col_vals) if col_vals else {"mean": 0.0}
-            sla_m, sla_ci = burst_sla(method, nodes)
-            if p95 is None:
-                continue
-            sla_cell = f"{sla_m:.2f} $\\pm$ {sla_ci:.2f}" if (sla_m or sla_ci) else "---"
-            ctrl_cell = f"{ctrl['mean']:.0f} $\\pm$ {ctrl['ci95_half']:.0f}" if ctrl_vals else "---"
-            e_vals = energy_summary.get((method, nodes), [])
-            c_vals = cost_summary.get((method, nodes), [])
-            if e_vals:
-                es = summarize(e_vals)
-                energy_cell = f"{es['mean']:.0f} $\\pm$ {es['ci95_half']:.0f}"
-            else:
-                energy_cell = "---"
-            if c_vals:
-                cs = summarize(c_vals)
-                cost_cell = f"{cs['mean']/1e6:.2f} $\\pm$ {cs['ci95_half']/1e6:.2f}"
-            else:
-                cost_cell = "---"
-            lines.append(
-                f"{method_latex_label(method, tex_escape)} & {nodes} & "
-                f"{p95['mean']:.1f} $\\pm$ {p95['yplus']:.1f} & {sla_cell} & "
-                f"{ctrl_cell} & "
-                f"{col['mean']:.1f} & "
-                f"{(oh['mean'] if oh else 0.0):.0f} & "
-                f"{energy_cell} & {cost_cell} \\\\"
-            )
+        if not any(r["method"] == method for r in p95_summary):
+            continue
+        p95_cells = [p95_cell(method, n) for n in node_counts]
+        burst_cells = [burst_cell(method, n) for n in node_counts]
+        ctrl_vals = ctrl_summary.get((method, sla_node), [])
+        ctrl = summarize(ctrl_vals) if ctrl_vals else {"mean": 0.0, "ci95_half": 0.0}
+        col_vals = colony_summary.get((method, sla_node), [])
+        col = summarize(col_vals) if col_vals else {"mean": 0.0}
+        ctrl_cell = f"{ctrl['mean']:.0f} $\\pm$ {ctrl['ci95_half']:.0f}" if ctrl_vals else "---"
+        col_cell = f"{col['mean']:.1f}" if col_vals else "---"
+        e_vals = energy_summary.get((method, sla_node), [])
+        c_vals = cost_summary.get((method, sla_node), [])
+        if e_vals:
+            es = summarize(e_vals)
+            energy_cell = f"{es['mean']:.0f} $\\pm$ {es['ci95_half']:.0f}"
+        else:
+            energy_cell = "---"
+        if c_vals:
+            cs = summarize(c_vals)
+            cost_cell = f"{cs['mean']/1e6:.2f} $\\pm$ {cs['ci95_half']/1e6:.2f}"
+        else:
+            cost_cell = "---"
+        lines.append(
+            f"{method_latex_label(method, tex_escape)} & "
+            f"{' & '.join(p95_cells)} & {' & '.join(burst_cells)} & "
+            f"{ctrl_cell} & {col_cell} & {energy_cell} & {cost_cell} \\\\"
+        )
     lines += [
         r"\bottomrule",
-        r"\end{tabular}}",
+        r"\end{tabular*}",
         r"\end{table*}",
     ]
     return "\n".join(lines)
@@ -1894,8 +1906,7 @@ def p95_all_nodes_tex(p95_summary: List[dict], node_counts: List[int]) -> str:
         rf"\caption{{P95 latency (ms, mean $\pm$ 95\% CI, $n={NUM_TRIALS}$) under normal load across fog scale.}}",
         r"\label{tab:p95_all}",
     ] + table_preamble_lines() + [
-        r"\resizebox{\columnwidth}{!}{%",
-        rf"\begin{{tabular}}{{{cols}}}",
+        column_table_begin(cols),
         r"\toprule",
         header + r" \\",
         r"\midrule",
@@ -1909,7 +1920,7 @@ def p95_all_nodes_tex(p95_summary: List[dict], node_counts: List[int]) -> str:
             else:
                 cells.append(f"{row['mean']:.1f} $\\pm$ {row['yplus']:.1f}")
         lines.append(" & ".join(cells) + r" \\")
-    lines += [r"\bottomrule", r"\end{tabular}}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
     return "\n".join(lines)
 
 
@@ -2164,14 +2175,14 @@ def generate() -> None:
             rf"\caption{{Ablation study at $N=500$ fog nodes (mean $\pm$ 95\% CI, $n={NUM_TRIALS}$ trials).}}",
             r"\label{tab:ablation}",
         ] + table_preamble_lines() + [
-            r"\begin{tabular}{lcc}", r"\toprule",
+            column_table_begin("lcc"), r"\toprule",
             r"\textbf{Variant} & \textbf{P95 latency (ms)} & \textbf{Burst SLA (\%)} \\",
             r"\midrule",
         ]
         for r in ablation_summary:
             lines.append(f"{r['variant']} & {r['p95_mean']:.1f} $\\pm$ {r['p95_ci']:.1f} & "
                          f"{r['sla_mean']:.1f} $\\pm$ {r['sla_ci']:.1f} \\\\")
-        lines += [r"\bottomrule", r"\end{tabular}", r"\end{table}"]
+        lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
         return "\n".join(lines)
 
     def sig_tex() -> str:
@@ -2197,8 +2208,8 @@ def generate() -> None:
             r"Full results incl.\ test statistics: \texttt{significance\_tests.csv}.}",
             r"\label{tab:significance_p95}",
         ] + table_preamble_lines() + [
-            r"\resizebox{\columnwidth}{!}{%",
-            rf"\begin{{tabular}}{{@{{}}l{'c' * len(node_cols)}@{{}}}}", r"\toprule",
+            column_table_begin(f"@{{}}l{'c' * len(node_cols)}@{{}}"),
+            r"\toprule",
             head + r" \\", r"\midrule",
         ]
         for method in methods_stress:
@@ -2213,7 +2224,7 @@ def generate() -> None:
                 )
                 cells.append(sig_cell(row) if row else "---")
             lines.append(" & ".join(cells) + r" \\")
-        lines += [r"\bottomrule", r"\end{tabular}}", r"\end{table}", ""]
+        lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}", ""]
 
         sla_rows = [r for r in sig_rows if not r["metric"].startswith("P95")]
         lines += [
@@ -2221,8 +2232,8 @@ def generate() -> None:
             rf"\caption{{Holm-adjusted $p$ for pairwise SLA tests versus DynaCol/DCBO by scenario "
             rf"($\alpha=0.05$, $n={NUM_TRIALS}$ per group; \textsuperscript{{ns}} = not significant).}}",
             r"\label{tab:significance}",
-        ] + table_preamble_lines() + [
-            r"\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll" + "c" * len(node_cols) + r"@{}}",
+        ] + table_preamble_lines("page") + [
+            page_table_begin("ll" + "c" * len(node_cols)),
             r"\toprule",
             " & ".join([r"\textbf{Comparison vs DynaCol/DCBO}", r"\textbf{Scenario}"]
                        + [rf"\textbf{{$N={n}$}}" for n in node_cols]) + r" \\",
@@ -2250,7 +2261,7 @@ def generate() -> None:
             rf"\caption{{P95 latency at $N={sla_node}$ fog nodes (mean $\pm$ 95\% CI, $n={NUM_TRIALS}$ trials).}}",
             r"\label{tab:p95_sla_node}",
         ] + table_preamble_lines() + [
-            r"\begin{tabular}{lc}", r"\toprule",
+            column_table_begin("lc"), r"\toprule",
             r"\textbf{Method} & \textbf{P95 latency (ms)} \\", r"\midrule",
         ]
         for m in METHODS_SCALABILITY:
@@ -2260,7 +2271,7 @@ def generate() -> None:
             lines.append(
                 f"{method_latex_label(m, tex_escape)} & {match['mean']:.1f} $\\pm$ {match['yplus']:.1f} \\\\"
             )
-        lines += [r"\bottomrule", r"\end{tabular}", r"\end{table}"]
+        lines += [r"\bottomrule", r"\end{tabular*}", r"\end{table}"]
         return "\n".join(lines)
 
     (LATEX / "tab_ablation.tex").write_text(ablation_tex(), encoding="utf-8")

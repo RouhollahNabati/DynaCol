@@ -1,11 +1,9 @@
-\begin{table}[t]
+\begin{table}[!t]
 \centering
 \caption{SLA deadline $N_\mathrm{slope}$ sensitivity at $N=500$ (mean SLA violation \%; $D_{\mathrm{base}}(N)=60+N\cdot s$; $n=5$ per cell).}
 \label{tab:sla_slope}
-\scriptsize
-\renewcommand{\arraystretch}{1.08}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{@{}lllcc@{}}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}@{}lllcc@{}@{}}
 \toprule
 \textbf{Method} & \textbf{$N_\mathrm{slope}$} & \textbf{Scenario} & \textbf{SLA (\%)} & \textbf{$n$} \\
 \midrule
@@ -37,5 +35,5 @@ FogPlan-MinCost & 0.150 & Burst Load & 20.28 & 5 \\
 FogPlan-MinCost & 0.150 & Churn & 20.52 & 5 \\
 FogPlan-MinCost & 0.150 & Normal Load & 20.00 & 5 \\
 \bottomrule
-\end{tabular}}
+\end{tabular*}
 \end{table}

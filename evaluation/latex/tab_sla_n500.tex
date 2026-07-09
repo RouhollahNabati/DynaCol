@@ -2,10 +2,8 @@
 \centering
 \caption{SLA violation rate (\%, mean $\pm$ 95\% CI, $n=10$) at $N=500$ by stress scenario.}
 \label{tab:sla_n500}
-\scriptsize
-\renewcommand{\arraystretch}{1.10}
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{lccc}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lccc@{}}
 \toprule
 \textbf{Method} & \textbf{Normal Load} & \textbf{Burst Load} & \textbf{Churn} \\
 \midrule
@@ -14,5 +12,5 @@
 \textcolor{dynacolTeal}{\textbf{Static-DCBO}} & 18.98 $\pm$ 0.00 & 19.01 $\pm$ 0.00 & 19.54 $\pm$ 0.03 \\
 \textcolor{dynacolPurple}{\textbf{Edgeward}} & 0.00 $\pm$ 0.00 & 86.67 $\pm$ 0.05 & 0.00 $\pm$ 0.00 \\
 \bottomrule
-\end{tabular}}
+\end{tabular*}
 \end{table}

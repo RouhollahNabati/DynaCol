@@ -2,9 +2,8 @@
 \centering
 \caption{P95 latency at $N=500$ fog nodes (mean $\pm$ 95\% CI, $n=10$ trials).}
 \label{tab:p95_sla_node}
-\scriptsize
-\renewcommand{\arraystretch}{1.10}
-\begin{tabular}{lc}
+\fgcsTableCol
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lc@{}}
 \toprule
 \textbf{Method} & \textbf{P95 latency (ms)} \\
 \midrule
@@ -13,5 +12,5 @@
 \textcolor{dynacolTeal}{\textbf{Static-DCBO}} & 457.2 $\pm$ 0.0 \\
 \textcolor{dynacolPurple}{\textbf{Edgeward}} & 8.2 $\pm$ 0.0 \\
 \bottomrule
-\end{tabular}
+\end{tabular*}
 \end{table}

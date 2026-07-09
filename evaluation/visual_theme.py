@@ -143,9 +143,13 @@ BAR_RX = 2.0
 LEGEND_SWATCH = 14
 LEGEND_LINE_HEIGHT = 18
 
-TABLE_SCRIPTSIZE = True
-TABLE_ARRAYSTRETCH = "1.10"
 TABLE_FLOAT_PLACEMENT = "!t"
+
+TABLE_VARIANTS = {
+    "column": r"\fgcsTableCol",
+    "page": r"\fgcsTablePage",
+    "wide": r"\fgcsTableWide",
+}
 
 
 def methods_present(rows: Sequence[dict], key: str = "method") -> List[str]:
@@ -190,17 +194,21 @@ def _lerp_rgb(a: Tuple[int, int, int], b: Tuple[int, int, int], t: float) -> Tup
     return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
 
 
-def table_preamble_lines() -> List[str]:
-    lines: List[str] = []
-    if TABLE_SCRIPTSIZE:
-        lines.append(r"\scriptsize")
-    lines.append(rf"\renewcommand{{\arraystretch}}{{{TABLE_ARRAYSTRETCH}}}")
-    return lines
+def table_preamble_lines(variant: str = "column") -> List[str]:
+    return [TABLE_VARIANTS.get(variant, r"\fgcsTableCol")]
 
 
 def table_open(table_star: bool = False) -> str:
     env = "table*" if table_star else "table"
     return rf"\begin{{{env}}}[{TABLE_FLOAT_PLACEMENT}]"
+
+
+def column_table_begin(cols: str) -> str:
+    return rf"\begin{{tabular*}}{{\columnwidth}}{{@{{\extracolsep{{\fill}}}}{cols}@{{}}}}"
+
+
+def page_table_begin(cols: str) -> str:
+    return rf"\begin{{tabular*}}{{\textwidth}}{{@{{\extracolsep{{\fill}}}}{cols}@{{}}}}"
 
 
 def latex_style_tex() -> str:
